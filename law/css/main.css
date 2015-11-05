@@ -359,16 +359,6 @@ body > .container{
 .header_logo .logo{
 
 }
-.index_header .title{
-    display: block;
-     width: 248px;
-     height: 55px;
-     background:url(../images/header_title.png) no-repeat;
-     background-size: 100%;
-     float: left;
-     text-indent:-9999px;
-     margin: 25px 0 0 20px;
-}
 /*
 .index_header .title{
 font-size: 3em;
@@ -679,7 +669,7 @@ color: #33cccc;
 
 .select_box{
     padding-right: 15px;
-    float: left;
+    display: inline-block;
 }
 .padding-right-15{
     padding-right: 15px;
