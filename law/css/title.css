@@ -19,3 +19,34 @@
     position: absolute;
     top: 5px;
     right: 40px; }
+
+.progress {
+  background-image: -webkit-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+  background-image: -o-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from(#e03e52), to(#ffcc00));
+  background-image: linear-gradient(to right, #e03e52 0%, #ffcc00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+  background-repeat: repeat-x; }
+
+.progress-bar {
+  position: relative; }
+  .progress-bar.progress-bar-custom {
+    background-image: none;
+    background-color: transparent; }
+  .progress-bar span.point {
+    position: absolute;
+    right: 0px;
+    top: 5px; }
+
+.progress-box-1 {
+  padding: 0px 95px;
+  padding-bottom: 25px;
+  position: relative; }
+  .progress-box-1 .yes_icon {
+    position: absolute;
+    left: 50px;
+    top: -18px; }
+  .progress-box-1 .no_icon {
+    position: absolute;
+    right: 50px;
+    top: -18px; }

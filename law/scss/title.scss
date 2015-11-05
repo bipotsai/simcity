@@ -1,3 +1,5 @@
+@import "variable";
+
 .title-1{
   width: 100%;
   position: relative;
@@ -24,3 +26,42 @@
     right: 40px;
   }
 }
+
+.progress{
+  background-image: -webkit-linear-gradient(right, $red 0%, $yello 100%);
+  background-image: -o-linear-gradient(right, $red 0%, $yello 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from($red), to($yello));
+  background-image: linear-gradient(to right, $red 0%, $yello 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+  background-repeat: repeat-x;
+}
+
+.progress-bar{
+  position: relative;
+  &.progress-bar-custom{
+    background-image: none;
+    background-color: transparent;
+  }
+  span.point{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+  }
+}
+
+.progress-box-1{
+  padding: 0px 95px;
+  padding-bottom: 25px;
+  position: relative;
+  .yes_icon{
+    position: absolute;
+    left: 50px;
+    top: -18px;
+  }
+  .no_icon{
+    position: absolute;
+    right: 50px;
+    top: -18px;
+  }
+}
+
