@@ -1,0 +1,12 @@
+.quick-actions {
+  position: relative; }
+  .quick-actions .star {
+    position: absolute;
+    top: -5px;
+    right: 10px; }
+  .quick-actions .histogram {
+    position: absolute;
+    top: 5px;
+    right: 40px; }
+
+/*# sourceMappingURL=quick_actions.css.map */
