@@ -1,0 +1,28 @@
+@import "variable";
+
+.topic-list{
+  .list-item{
+    display: table;
+    width: 100%;
+    .catetory-label{
+      display: table-cell;
+      width: 74px;
+    }
+    .descrip{
+      width: auto;
+      color: $primary;
+      display: table-cell;
+      padding-left: $gap-m;
+      padding-right: $gap-m;
+      background-color: #fff;
+      font-size: $fs-list-content;
+      .secondary-text{
+        color: $red;
+        font-size: $fs-list-sec;
+        display: inline-block;
+        padding-right: $gap-xl;
+        float: right;
+      }
+    }
+  }
+}

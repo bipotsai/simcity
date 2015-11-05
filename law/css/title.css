@@ -2,31 +2,18 @@
   width: 100%;
   position: relative;
   background-color: #fff;
-  box-shadow: 1px 1px 1px #C7C7C7;
-  top: 5px;
-  right: 40px; }
+  box-shadow: 1px 1px 1px #C7C7C7; }
   .title-1 h1 {
     color: #534741;
     text-align: center;
     font-size: 38px;
     padding: 25px 0px; }
 
-.quick-actions {
-  position: relative; }
-  .quick-actions .star {
-    position: absolute;
-    top: -5px;
-    right: 10px; }
-  .quick-actions .histogram {
-    position: absolute;
-    top: 5px;
-    right: 40px; }
-
 .progress {
-  background-image: -webkit-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
-  background-image: -o-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
-  background-image: -webkit-gradient(linear, left right, left right, from(#e03e52), to(#ffcc00));
-  background-image: linear-gradient(to right, #e03e52 0%, #ffcc00 100%);
+  background-image: -webkit-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+  background-image: -o-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from(#E03E52), to(#FFCC00));
+  background-image: linear-gradient(to right, #E03E52 0%, #FFCC00 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
   background-repeat: repeat-x; }
 
@@ -52,3 +39,5 @@
     position: absolute;
     right: 50px;
     top: -18px; }
+
+/*# sourceMappingURL=title.css.map */
