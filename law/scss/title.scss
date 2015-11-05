@@ -1,18 +1,22 @@
-.title-1 {
+.title-1{
   width: 100%;
   position: relative;
   background-color: #fff;
-  box-shadow: 1px 1px 1px #C7C7C7; }
-  .title-1 h1 {
+  box-shadow: 1px 1px 1px #C7C7C7;
+  h1{
     color: #534741;
     text-align: center;
     font-size: 38px;
-    padding: 25px 0px; }
-  .title-1 .star {
+    padding: 25px 0px;
+  }
+  .star{
     position: absolute;
     top: -5px;
-    right: 10px; }
-  .title-1 .histogram {
+    right: 10px;
+  }
+  .histogram{
     position: absolute;
     top: 0px;
-    right: 20px; }
+    right: 20px;
+  }
+}
