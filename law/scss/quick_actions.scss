@@ -1,0 +1,13 @@
+.quick-actions{
+  position: relative;
+  .star{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+  }
+  .histogram{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+  }
+}
