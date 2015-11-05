@@ -20,3 +20,17 @@
     right: 20px;
   }
 }
+
+.quick-actions{
+  position: relative;
+  .star{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+  }
+  .histogram{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+}
