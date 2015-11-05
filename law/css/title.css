@@ -8,14 +8,6 @@
     text-align: center;
     font-size: 38px;
     padding: 25px 0px; }
-  .title-1 .star {
-    position: absolute;
-    top: -5px;
-    right: 10px; }
-  .title-1 .histogram {
-    position: absolute;
-    top: 0px;
-    right: 20px; }
 
 .quick-actions {
   position: relative; }
@@ -25,7 +17,5 @@
     right: 10px; }
   .quick-actions .histogram {
     position: absolute;
-    top: 0px;
-    right: 20px; }
-
-/*# sourceMappingURL=title.css.map */
+    top: 5px;
+    right: 40px; }
