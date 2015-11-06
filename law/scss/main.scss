@@ -1,9 +1,5 @@
 @import "variable";
-@media (min-width: 1200px) {
-  .container {
-    width: 1293px;
-}
-}
+
 
 body {
     overflow-x: hidden;
@@ -92,28 +88,59 @@ body > .container{
     border-right: 1px solid #e6e6e6;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1293px;
+    }
+    .container_fullwidth{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-main {
+        width: 100%;
+        .header_logo img{
+            width: 100%;
+        }
+    }
+    .container_fullwidth{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media (min-width: 768px) {
-  .container-main {
-    width: 100%;
-  }
+    .container-main {
+        width: 100%;
+    }
+    .container_fullwidth{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 @media (min-width: 992px) {
-  .container-main {
-    width: 1000px;
-  }
+    .container-main {
+        width: 1000px;
+    }
+    .container_fullwidth{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 @media (min-width: 1200px) {
-  .container-main {
-    width: 1000px;
-  }
+    .container-main {
+        width: 1000px;
+    }
+    .container_fullwidth{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 .container-ad{
     float: right;
     width: 250px;
-}
-.container_fullwidth{
-    padding-left: 50px;
-     padding-right: 50px;
 }
 .row{margin-right: -10px;
   margin-left: -10px;
