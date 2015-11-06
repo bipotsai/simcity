@@ -4,12 +4,48 @@
 .list-item{
   display: table;
   width: 100%;
-  margin-bottom: $gap-s;
+  @media screen and (max-width: $screen-md) {
+    margin-bottom: $gap-s;
+  }
   .catetory-label{
     display: table-cell;
     width: 74px;
   }
+  .tail{
+    display: inline-block;
+    color: $red;
+    font-size: $fs-secondary;
+    height: $list-item-height;
+    vertical-align: top;
+    @media screen and (min-width: $screen-md) {
+      padding-top: 10px;
+    }
+    &.with-progress{
+      width: 100%;
+      @media screen and (min-width: $screen-md) {
+        width: 43%;
+      }
+      .progress{
+        display: inline-block;
+        width: 80%;
+        background: none;
+        border: 1px solid $red;
+        border-radius: 0px;
+        .progress-bar{
+          text-align: left;
+          padding-left: $gap-s;
+          background-image: none;
+          background-color: $red;
+        }
+      }
+      .percent{
+        vertical-align: top;
+        float: right;
+      }
+    }
+  }
   .descrip, .simple-topic-item-1{
+    margin-right: $gap-s;
     display: table-cell;
     width: auto;
     height: $list-item-height;
@@ -17,6 +53,7 @@
     padding-right: $gap-m;
     font-size: $fs-primary;
     vertical-align: middle;
+    margin-bottom: $gap-s;
   }
   .secondary-text{
     font-size: $fs-list-sec;
@@ -37,19 +74,32 @@
     }
   }
   .simple-topic-item-1{
+    display: inline-block;
     background-color: $white;
     border: 1px solid $light-brown;
-    color: $dark-brown;
+    color: $primary;
+    padding-top: 8px;
+    &:first-child{
+      width: 100%;
+      @media screen and (min-width: $screen-md) {
+        width: 55%;
+      }
+    }
+    &.compete{
+      padding-top: 0px;
+      .user-icon{
+        height: 39px;
+      }
+    }
     .secondary-text{
       color: $brown;
     }
     &.right-arrow{
       background-color: $white;
-      display: inline-block;
+      // display: inline-block;
       border-right-width:0px;
       margin-right: 10px + $gap-s;
       position: relative;
-      padding-top: 8px;
       /* Required for Down Triangle */
       &:before, &:after {
         content: "";
@@ -78,11 +128,21 @@
         border-width: 18px 0 18px 9px;
         // border-width: 19px;
       }
-      &.bg-brown{
-        background-color: $brow-white;
-        &:after{
-          border-left-color: $brow-white;
+      span{
+        margin-left: $gap-xs;
+        &.change-to{
+          color: $blue;
+          font-size: $fs-secondary;
         }
+      }
+    }
+  }
+
+  &.bg-brown{
+    .simple-topic-item-1{
+      background-color: $brow-white;
+      &:after{
+        border-left-color: $brow-white;
       }
     }
   }

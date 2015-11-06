@@ -1,3 +1,4 @@
+@import "variable";
 .margin-bot-m{
   margin-bottom: margin-s;
 }
@@ -7,3 +8,7 @@
   padding-left: 15px;
 }
 
+/*Font color*/
+.text-blue{
+  color: $blue;
+}

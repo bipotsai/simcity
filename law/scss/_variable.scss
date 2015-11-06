@@ -13,6 +13,7 @@ $dark-gary: #4D4D4D;
 
 
 // margin, and padding
+$gap-xs: 5px;
 $gap-s: 10px;
 $gap-m: 15px;
 $gap-l: 30px;
@@ -27,8 +28,15 @@ $blue: #33CCCC;
 
 // font-size
 $fs-primary: 16px;
+$fs-secondary: 14px;
 
 $fs-list-content: $fs-primary;
-$fs-list-sec: 14px;
+$fs-list-sec: $fs-secondary;
 
 $list-item-height: 40px;
+
+// Screen size
+
+$screen-s: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
