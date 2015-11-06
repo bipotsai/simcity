@@ -1,12 +1,20 @@
 @media (max-width: 768px) {
   .layout-2 .select_box {
-    padding-right: 5px; } }
+    padding-right: 5px; }
+  .layout-2 .topic-list .list-item .descrip {
+    padding-right: 40px; } }
 @media (min-width: 768px) {
   .layout-2 .select_box {
-    padding-right: 5px; } }
+    padding-right: 5px; }
+  .layout-2 .topic-list .list-item .descrip {
+    padding-right: 40px; } }
 @media (min-width: 1200px) {
   .layout-2 .select_box {
+    padding-right: 15px; }
+  .layout-2 .topic-list .list-item .descrip {
     padding-right: 15px; } }
 @media (min-width: 992px) {
   .layout-2 .select_box {
+    padding-right: 15px; }
+  .layout-2 .topic-list .list-item .descrip {
     padding-right: 15px; } }

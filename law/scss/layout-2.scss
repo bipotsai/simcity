@@ -8,6 +8,13 @@
         .select_box{
             padding-right: 5px;
         }
+        .topic-list{
+            .list-item{
+                .descrip{
+                    padding-right: 40px;
+                }
+            }
+        }
     }
 }
 
@@ -16,12 +23,26 @@
         .select_box{
             padding-right: 5px;
         }
+        .topic-list{
+            .list-item{
+                .descrip{
+                    padding-right: 40px;
+                }
+            }
+        }
     }
 }
 @media (min-width: 1200px) {
     .layout-2{
         .select_box{
             padding-right: 15px;
+        }
+        .topic-list{
+            .list-item{
+                .descrip{
+                    padding-right: 15px;
+                }
+            }
         }
     }
 }
@@ -30,6 +51,13 @@
     .layout-2{
         .select_box{
             padding-right: 15px;
+        }
+        .topic-list{
+            .list-item{
+                .descrip{
+                    padding-right: 15px;
+                }
+            }
         }
     }
 }
