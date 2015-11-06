@@ -2,10 +2,10 @@
 
 
 .progress{
-  background-image: -webkit-linear-gradient(right, $red 0%, $yello 100%);
-  background-image: -o-linear-gradient(right, $red 0%, $yello 100%);
-  background-image: -webkit-gradient(linear, left right, left right, from($red), to($yello));
-  background-image: linear-gradient(to right, $red 0%, $yello 100%);
+  background-image: -webkit-linear-gradient(right, $red 0%, $yellow 100%);
+  background-image: -o-linear-gradient(right, $red 0%, $yellow 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from($red), to($yellow));
+  background-image: linear-gradient(to right, $red 0%, $yellow 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
   background-repeat: repeat-x;
   overflow: visible;
@@ -187,7 +187,7 @@
         height: 40px;
         padding: 0px 10px;
         line-height: 40px;
-        background-color: $yello;
+        background-color: $yellow;
         float: right;
       }
       i{
@@ -364,7 +364,7 @@
           color: #fff;
           line-height: 40px;
           height: 40px;
-          background-color: $yello;
+          background-color: $yellow;
           padding: 0px 5px;
           box-shadow: -2px 2px 1px #AFAFAF;
         }
