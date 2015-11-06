@@ -1,27 +1,88 @@
 @import "variable";
 
-.topic-list{
-  .list-item{
-    display: table;
-    width: 100%;
-    .catetory-label{
-      display: table-cell;
-      width: 74px;
+// .topic-list{
+.list-item{
+  display: table;
+  width: 100%;
+  margin-bottom: $gap-s;
+  .catetory-label{
+    display: table-cell;
+    width: 74px;
+  }
+  .descrip, .simple-topic-item-1{
+    display: table-cell;
+    width: auto;
+    height: $list-item-height;
+    padding-left: $gap-m;
+    padding-right: $gap-m;
+    font-size: $fs-primary;
+    vertical-align: middle;
+  }
+  .secondary-text{
+    font-size: $fs-list-sec;
+    display: inline-block;
+    float: right;
+  }
+  .descrip{
+    color: $primary;
+    background-color: #fff;
+    .secondary-text{
+      color: $red;
+      padding-right: $gap-xl;
     }
-    .descrip{
-      width: auto;
-      color: $primary;
-      display: table-cell;
-      padding-left: $gap-m;
-      padding-right: $gap-m;
-      background-color: #fff;
-      font-size: $fs-list-content;
-      .secondary-text{
-        color: $red;
-        font-size: $fs-list-sec;
-        display: inline-block;
-        padding-right: $gap-xl;
-        float: right;
+  }
+  &:nth-child(even){
+    .simple-topic-item-1{
+      background-color: $brow-white;
+    }
+  }
+  .simple-topic-item-1{
+    background-color: $white;
+    border: 1px solid $light-brown;
+    color: $dark-brown;
+    .secondary-text{
+      color: $brown;
+    }
+    &.right-arrow{
+      background-color: $white;
+      display: inline-block;
+      border-right-width:0px;
+      margin-right: 10px + $gap-s;
+      position: relative;
+      padding-top: 8px;
+      /* Required for Down Triangle */
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent;
+        // border-bottom: 0;
+      }
+      /* Stroke */
+      &:before {
+        top: -1px;
+        right: -10px;
+        /* If 1px darken stroke slightly */
+        border-left-color: $light-brown;
+        // border-width: 20px;
+        border-width: 20px 0 20px 10px;
+      }
+
+      /* Fill */
+      &:after {
+        top: 1px;
+        right: -9px;
+        border-left-color: $white;
+        border-width: 18px 0 18px 9px;
+        // border-width: 19px;
+      }
+      &.bg-brown{
+        background-color: $brow-white;
+        &:after{
+          border-left-color: $brow-white;
+        }
       }
     }
   }

@@ -1,9 +1,13 @@
+$white: #FFFFFF;
+$brow-white: #F7F4F1;
 $red: #E03E52;
 $little-red: #E97886;
 $light-red: #FF9999;
 $yello: #FFCC00;
-$brown: #736357;
-$light-brown: #D8C9B7;
+$lighter-brown: #D8C9B7;
+$light-brown: #C7B299;
+$brown: #998675;
+$dark-brown: #736357;
 $little-gray: #E6E6E6;
 $dark-gary: #4D4D4D;
 
@@ -16,10 +20,15 @@ $gap-xl: 45px;
 
 // font-color
 $primary: #534741;
+$dark-brown: #736357;
 
 //font-color-hover
 $blue: #33CCCC;
 
 // font-size
-$fs-list-content: 16px;
+$fs-primary: 16px;
+
+$fs-list-content: $fs-primary;
 $fs-list-sec: 14px;
+
+$list-item-height: 40px;

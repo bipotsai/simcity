@@ -1,20 +1,67 @@
-.topic-list .list-item {
+.list-item {
   display: table;
-  width: 100%; }
-  .topic-list .list-item .catetory-label {
+  width: 100%;
+  margin-bottom: 10px; }
+  .list-item .catetory-label {
     display: table-cell;
     width: 74px; }
-  .topic-list .list-item .descrip {
-    width: auto;
-    color: #534741;
+  .list-item .descrip, .list-item .simple-topic-item-1 {
     display: table-cell;
+    width: auto;
+    height: 40px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #fff;
-    font-size: 16px; }
-    .topic-list .list-item .descrip .secondary-text {
-      color: #e03e52;
-      font-size: 14px;
+    font-size: 16px;
+    vertical-align: middle; }
+  .list-item .secondary-text {
+    font-size: 14px;
+    display: inline-block;
+    float: right; }
+  .list-item .descrip {
+    color: #534741;
+    background-color: #fff; }
+    .list-item .descrip .secondary-text {
+      color: #E03E52;
+      padding-right: 45px; }
+  .list-item:nth-child(even) .simple-topic-item-1 {
+    background-color: #F7F4F1; }
+  .list-item .simple-topic-item-1 {
+    background-color: #FFFFFF;
+    border: 1px solid #C7B299;
+    color: #736357; }
+    .list-item .simple-topic-item-1 .secondary-text {
+      color: #998675; }
+    .list-item .simple-topic-item-1.right-arrow {
+      background-color: #FFFFFF;
       display: inline-block;
-      padding-right: 45px;
-      float: right; }
+      border-right-width: 0px;
+      margin-right: 20px;
+      position: relative;
+      padding-top: 8px;
+      /* Required for Down Triangle */
+      /* Stroke */
+      /* Fill */ }
+      .list-item .simple-topic-item-1.right-arrow:before, .list-item .simple-topic-item-1.right-arrow:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent; }
+      .list-item .simple-topic-item-1.right-arrow:before {
+        top: -1px;
+        right: -10px;
+        /* If 1px darken stroke slightly */
+        border-left-color: #C7B299;
+        border-width: 20px 0 20px 10px; }
+      .list-item .simple-topic-item-1.right-arrow:after {
+        top: 1px;
+        right: -9px;
+        border-left-color: #FFFFFF;
+        border-width: 18px 0 18px 9px; }
+      .list-item .simple-topic-item-1.right-arrow.bg-brown {
+        background-color: #F7F4F1; }
+        .list-item .simple-topic-item-1.right-arrow.bg-brown:after {
+          border-left-color: #F7F4F1; }
+
+/*# sourceMappingURL=list.css.map */

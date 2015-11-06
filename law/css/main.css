@@ -546,7 +546,7 @@ body > .container {
   border: 1px solid #eee; }
 
 .footer_menu {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #E6E6E6;
   padding: 15px 0px; }
   .footer_menu a {
     border-right: 1px solid #666;
@@ -556,7 +556,7 @@ body > .container {
     .footer_menu a:last-child {
       border-right: 0px; }
     .footer_menu a:hover {
-      color: #33cccc; }
+      color: #33CCCC; }
 
 .footer {
   line-height: 60px;
@@ -564,4 +564,6 @@ body > .container {
   height: 60px;
   padding: 0px 10px;
   color: #CCCCCC;
-  background-color: #4d4d4d; }
+  background-color: #4D4D4D; }
+
+/*# sourceMappingURL=main.css.map */
