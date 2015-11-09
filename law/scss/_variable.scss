@@ -1,35 +1,43 @@
 $white: #FFFFFF;
 $brow-white: #F7F4F1;
 $red: #E03E52;
-$little-red: #E97886;
+$little-red: rgba( $red, .5 );
 $light-red: #FF9999;
+$lighter-red: rgba( $red, .2 );
 $yellow: #FFCC00;
+$light-yellow: rgba( $yellow, .5 );
+$lighter-yellow: rgba( $yellow, .2 );
 $lighter-brown: #D8C9B7;
 $light-brown: #C7B299;
 $brown: #998675;
 $dark-brown: #736357;
+$darker-brown: #42210B;
+$lighter-gray: #fafafa;
 $little-gray: #E6E6E6;
 $dark-gary: #4D4D4D;
+
 
 
 // margin, and padding
 $gap-xs: 5px;
 $gap-s: 10px;
 $gap-m: 15px;
+$gap-mm: 20px;
 $gap-l: 30px;
 $gap-xl: 45px;
+$gap-xxl: 50px;
 
 // border width
 $border-xs: 5px;
 
 // font-color
 $primary: #534741;
-$dark-brown: #736357;
 
 //font-color-hover
 $blue: #33CCCC;
 
 // font-size
+$fs-xl: 35px;
 $fs-primary: 16px;
 $fs-secondary: 14px;
 

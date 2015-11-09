@@ -83,7 +83,7 @@ body > .container{
 }
 .container-main{
     float: left;
-    background:#fafafa;
+    background:$lighter-gray;
     border-left:1px solid #e6e6e6;
     border-right: 1px solid #e6e6e6;
 }
@@ -436,7 +436,7 @@ body > .container{
 /*頁碼*/
 .pagination>li>a, .pagination>li>span{
  border: 1px solid #e6e6e6;
-  background: #fafafa;
+  background: $lighter-gray;
   color: #666666;
   margin: 0 5px;
   padding: 2px 5px;
@@ -448,7 +448,7 @@ body > .container{
  border: none;
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{color: #666666;
- background-color: #fafafa;
+ background-color: $lighter-gray;
  border-color: #666666;
 }
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
