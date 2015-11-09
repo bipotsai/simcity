@@ -9,7 +9,7 @@
            var left_percentage = $(this).find('.left').data().percentage
            var left_width = (total_widh - 140) * (left_percentage * 0.01)
 
-           var right_width = total_widh - (left_width + 140)
+           var right_width = total_widh - (left_width + 140) - 1
            $(this).find('.left .user .name').width(left_width)
            $(this).find('.right .user .name').width(right_width)
 
