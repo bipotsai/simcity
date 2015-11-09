@@ -1,0 +1,71 @@
+@import "variable";
+
+.sub-navbar{
+  .count-down{
+    color: $white;
+    display: inline-block;
+    &.answer{
+      background-color: $yellow;
+      .counter{
+        span{
+          color: $yellow;
+        }
+      }
+    }
+    &.question{
+      background-color: $red;
+      .counter{
+        span{
+          color: $red;
+        }
+      }
+    }
+    height: 30px;
+    .counter{
+      display: inline-block;
+      padding-right: $gap-m;
+      padding-left: $gap-s;
+      span{
+        background: white;
+        color: $yellow;
+        padding: 2px 3px 2px;
+        &:last-child{
+          margin-right: $gap-s;
+        }
+      }
+    }
+    a{
+      margin-right: 0px;
+    }
+  }
+  a{
+    display: inline-block;
+    margin-right: $gap-xs;
+    margin-bottom: $gap-s;
+    &:hover{
+      .item{
+        background-color: #998675;
+      }
+    }
+  }
+  .item{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    background-color: $lighter-brown;
+    font-size: $fs-secondary;
+    padding-top: 4px;
+    &.question, &.answer{
+      border-width: 0px;
+      border-left-width: $border-xs;
+      border-style: solid;
+    }
+    &.question{
+      border-color: $red;
+    }
+    &.answer{
+      border-color: $yellow;
+    }
+  }
+}
