@@ -17,6 +17,27 @@
                 }
             }
         }
+        @media (max-width: 768px) {
+            .question-box{
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .question-box{
+                width: 100%;
+            }
+        }
+        @media (min-width: 992px) {
+            .question-box{
+                width: 55%;
+            }
+        }
+        @media (min-width: 1200px) {
+            .question-box{
+                width: 55%;
+            }
+        }
         &.status .list-item{
             margin: 5px 0px;
         }
