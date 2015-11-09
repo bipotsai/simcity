@@ -1,0 +1,114 @@
+.summary {
+  max-width: 440px;
+  padding: 10px 20px 10px;
+  border: 1px solid #33CCCC; }
+  .summary .item-group {
+    border: 0px dashed #33CCCC;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px; }
+    .summary .item-group.main {
+      border-style: solid; }
+    .summary .item-group:last-child {
+      border-bottom-width: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px; }
+  .summary label, .summary .title {
+    width: 60px;
+    text-align: right; }
+  .summary .title {
+    color: #33CCCC;
+    margin-bottom: 5px; }
+  .summary .body {
+    display: inline-block;
+    border: 0px solid #E6E6E6;
+    border-right-width: 1px;
+    vertical-align: middle; }
+    .summary .body .item {
+      width: 330px;
+      color: #999;
+      font-weight: lighter; }
+      .summary .body .item label {
+        font-weight: lighter;
+        margin-right: 5px; }
+    .summary .body.msg {
+      border-right-width: 0px; }
+      .summary .body.msg .item {
+        width: 100%; }
+        .summary .body.msg .item .deny_msg {
+          position: relative;
+          display: inline-block;
+          width: 320px;
+          background-color: #E6E6E6;
+          margin-left: 70px;
+          padding: 10px 15px 10px; }
+          .summary .body.msg .item .deny_msg div {
+            display: inline-block; }
+            .summary .body.msg .item .deny_msg div p {
+              margin: 0px; }
+          .summary .body.msg .item .deny_msg img {
+            margin-right: 15px;
+            float: left; }
+          .summary .body.msg .item .deny_msg .goto {
+            position: absolute;
+            padding: 5px 10px 5px;
+            color: #FFFFFF;
+            background-color: #33CCCC;
+            right: 0px;
+            bottom: 10px;
+            border-right-width: 0px;
+            /* Required for Down Triangle */
+            /* Stroke */ }
+            .summary .body.msg .item .deny_msg .goto:before {
+              content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-color: transparent; }
+            .summary .body.msg .item .deny_msg .goto:before {
+              top: -0px;
+              right: -15px;
+              /* If 1px darken stroke slightly */
+              border-left-color: #33CCCC;
+              border-width: 15px 0 15px 15px; }
+    .summary .body .progress {
+      width: 200px;
+      border-radius: 0px;
+      background: #E6E6E6;
+      display: inline-block;
+      margin-bottom: 0px;
+      box-shadow: none; }
+      .summary .body .progress span {
+        color: #BDCCD4;
+        margin-left: 5px; }
+      .summary .body .progress .progress-bar {
+        box-shadow: none;
+        float: none;
+        background-color: #33CCCC;
+        background-image: none;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        padding-right: 10px; }
+      .summary .body .progress.progress-gray, .summary .body .progress.progress-light-gray {
+        background: none; }
+      .summary .body .progress.progress-gray .progress-bar {
+        background-color: #BDCCD4; }
+      .summary .body .progress.progress-light-gray .progress-bar {
+        background-color: #E6E6E6; }
+      .summary .body .progress.progress-yellow .progress-bar {
+        background-color: #FFCC00; }
+      .summary .body .progress.progress-lighter-blue .progress-bar {
+        background-color: rgba(51, 204, 204, 0.2); }
+    .summary .body .value {
+      float: right;
+      margin-right: 5px; }
+  .summary .total {
+    margin-left: 10px;
+    color: #33CCCC;
+    display: inline-block;
+    width: 53px;
+    text-align: right; }
+
+/*# sourceMappingURL=summary.css.map */

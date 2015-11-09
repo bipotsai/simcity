@@ -1,0 +1,71 @@
+.sub-navbar .count-down {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 10px;
+  height: 30px; }
+  .sub-navbar .count-down.answer {
+    background-color: #FFCC00; }
+    .sub-navbar .count-down.answer .counter span {
+      color: #FFCC00; }
+  .sub-navbar .count-down.question {
+    background-color: #E03E52; }
+    .sub-navbar .count-down.question .counter span {
+      color: #E03E52; }
+  .sub-navbar .count-down.bg-linear {
+    background-image: -webkit-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+    background-image: -o-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+    background-image: -webkit-gradient(linear, left right, left right, from(#E03E52), to(#FFCC00));
+    background-image: linear-gradient(to right, #E03E52 0%, #FFCC00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+    background-repeat: repeat-x; }
+    .sub-navbar .count-down.bg-linear .counter span {
+      color: #E03E52; }
+  .sub-navbar .count-down.bg-brown {
+    background-color: #998675; }
+    .sub-navbar .count-down.bg-brown .counter span {
+      color: #998675; }
+  .sub-navbar .count-down .counter {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 10px; }
+    .sub-navbar .count-down .counter span {
+      background: white;
+      color: #FFCC00;
+      padding: 0px 4px; }
+      .sub-navbar .count-down .counter span:last-child {
+        margin-right: 10px; }
+    .sub-navbar .count-down .counter.notext span:last-child {
+      margin-right: 0px; }
+  .sub-navbar .count-down a {
+    margin-right: 0px; }
+.sub-navbar a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px; }
+  .sub-navbar a:hover .item {
+    background-color: #998675; }
+.sub-navbar .item {
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  background-color: #D8C9B7;
+  font-size: 14px;
+  padding-top: 4px;
+  line-height: 23px; }
+  .sub-navbar .item.question, .sub-navbar .item.answer {
+    border-width: 0px;
+    border-left-width: 5px;
+    border-style: solid; }
+    .sub-navbar .item.question.disable, .sub-navbar .item.answer.disable {
+      background-color: rgba(216, 201, 183, 0.2); }
+  .sub-navbar .item.question {
+    border-color: #E03E52; }
+    .sub-navbar .item.question.disable {
+      border-color: rgba(224, 62, 82, 0.2); }
+  .sub-navbar .item.answer {
+    border-color: #FFCC00; }
+    .sub-navbar .item.answer.disable {
+      border-color: rgba(255, 204, 0, 0.2); }
+
+/*# sourceMappingURL=sub_navbar.css.map */

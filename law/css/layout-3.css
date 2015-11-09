@@ -1,0 +1,29 @@
+.layout-3 .sub-title {
+  background-color: #F7F4F1;
+  padding: 60px 10px;
+  text-align: center;
+  color: #534741; }
+.layout-3 .itme-box {
+  margin: 25px 0px; }
+  .layout-3 .itme-box .question-box {
+    width: 55%; }
+    .layout-3 .itme-box .question-box .select_box {
+      float: right; }
+      .layout-3 .itme-box .question-box .select_box.no-padding-right {
+        padding-right: 0px; }
+  @media (max-width: 768px) {
+    .layout-3 .itme-box .question-box {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .layout-3 .itme-box .question-box {
+      width: 100%; } }
+  @media (min-width: 992px) {
+    .layout-3 .itme-box .question-box {
+      width: 55%; } }
+  @media (min-width: 1200px) {
+    .layout-3 .itme-box .question-box {
+      width: 55%; } }
+  .layout-3 .itme-box.status .list-item {
+    margin: 5px 0px; }
+
+/*# sourceMappingURL=layout-3.css.map */

@@ -1,0 +1,112 @@
+.list-item {
+  display: table;
+  width: 100%; }
+  @media screen and (max-width: 992px) {
+    .list-item {
+      margin-bottom: 10px; } }
+  .list-item .catetory-label {
+    display: table-cell;
+    width: 74px; }
+  .list-item .tail {
+    display: inline-block;
+    color: #E03E52;
+    font-size: 14px;
+    height: 40px;
+    vertical-align: top; }
+    @media screen and (min-width: 992px) {
+      .list-item .tail {
+        padding-top: 10px; } }
+    .list-item .tail.with-progress {
+      width: 100%; }
+      @media screen and (min-width: 992px) {
+        .list-item .tail.with-progress {
+          width: 43%; } }
+      .list-item .tail.with-progress .progress {
+        display: inline-block;
+        width: 80%;
+        background: none;
+        border: 1px solid #E03E52;
+        border-radius: 0px; }
+        .list-item .tail.with-progress .progress .progress-bar {
+          text-align: left;
+          padding-left: 10px;
+          background-image: none;
+          background-color: #E03E52;
+          box-shadow: none; }
+      .list-item .tail.with-progress .percent {
+        vertical-align: top;
+        float: right; }
+  .list-item .descrip, .list-item .simple-topic-item-1 {
+    margin-right: 10px;
+    display: table-cell;
+    width: auto;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 10px; }
+  .list-item .secondary-text {
+    font-size: 14px;
+    display: inline-block;
+    float: right; }
+  .list-item .descrip {
+    color: #534741;
+    background-color: #fff; }
+    .list-item .descrip .secondary-text {
+      color: #E03E52;
+      padding-right: 45px; }
+  .list-item .simple-topic-item-1 {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #C7B299;
+    color: #534741;
+    padding-top: 8px; }
+    .list-item .simple-topic-item-1:first-child {
+      width: 100%; }
+      @media screen and (min-width: 992px) {
+        .list-item .simple-topic-item-1:first-child {
+          width: 55%; } }
+    .list-item .simple-topic-item-1.brow {
+      background-color: #F7F4F1; }
+    .list-item .simple-topic-item-1.compete {
+      padding-top: 0px; }
+      .list-item .simple-topic-item-1.compete .user-icon {
+        height: 39px; }
+    .list-item .simple-topic-item-1 .secondary-text {
+      color: #998675; }
+    .list-item .simple-topic-item-1.right-arrow {
+      background-color: #FFFFFF;
+      border-right-width: 0px;
+      margin-right: 20px;
+      position: relative;
+      /* Required for Down Triangle */
+      /* Stroke */
+      /* Fill */ }
+      .list-item .simple-topic-item-1.right-arrow:before, .list-item .simple-topic-item-1.right-arrow:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent; }
+      .list-item .simple-topic-item-1.right-arrow:before {
+        top: -1px;
+        right: -10px;
+        /* If 1px darken stroke slightly */
+        border-left-color: #C7B299;
+        border-width: 20px 0 20px 10px; }
+      .list-item .simple-topic-item-1.right-arrow:after {
+        top: 1px;
+        right: -9px;
+        border-left-color: #FFFFFF;
+        border-width: 18px 0 18px 9px; }
+      .list-item .simple-topic-item-1.right-arrow span.change-to {
+        color: #33CCCC;
+        font-size: 14px; }
+  .list-item.bg-brown .simple-topic-item-1 {
+    background-color: #F7F4F1; }
+    .list-item.bg-brown .simple-topic-item-1:after {
+      border-left-color: #F7F4F1; }
+
+/*# sourceMappingURL=list.css.map */
