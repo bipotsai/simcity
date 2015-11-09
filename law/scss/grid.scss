@@ -57,7 +57,7 @@
     .body{
       color: $brown;
     }
-    &.body-question, &.body-answer, &.body-answer-light, &.body-answer-lighter{
+    &.body-question, &.body-answer, &.body-answer-light, &.body-answer-lighter, &.body-question-light, &.body-question-lighter{
       color: $darker-brown;
       .info{
         color: $white !important;
