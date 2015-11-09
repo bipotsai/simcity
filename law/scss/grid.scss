@@ -35,6 +35,9 @@
       width: 49%;
       margin-bottom: $gap-s;
       color: $dark-brown;
+      @media screen and (max-width: $screen-s) {
+        width: auto;
+      }
       img{
         height: 30px;
         width: 30px;
@@ -46,6 +49,9 @@
       &.right{
         width: 50%;
         text-align: right;
+        @media screen and (max-width: $screen-s) {
+          width: auto;
+        }
         span{
           margin-left: $gap-mm;
           @media screen and (min-width: 992px) {
@@ -205,5 +211,16 @@
         }
       }
     }
+  }
+}
+.panel-menu{
+  color: $dark-brown;
+  a{
+    color: $dark-brown;
+    padding: 0px 10px 0px 5px;
+    border-right: 1px solid  $dark-brown;
+    &:last-child{
+      border-right: 0px;
+    };
   }
 }

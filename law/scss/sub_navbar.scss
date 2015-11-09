@@ -51,6 +51,11 @@
           margin-right: $gap-s;
         }
       }
+      &.notext{
+        span:last-child{
+          margin-right: 0px;
+        }
+      }
     }
     a{
       margin-right: 0px;
