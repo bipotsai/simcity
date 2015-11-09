@@ -1,0 +1,155 @@
+@import "variable";
+
+.summary{
+  max-width: 440px;
+  padding: $gap-s $gap-mm $gap-s;
+  border: 1px solid $blue;
+  .item-group{
+    border: 0px dashed $blue;
+    border-bottom-width: 2px;
+    margin-bottom: $gap-s;
+    padding-bottom: $gap-s;
+    &.main{
+      border-style: solid;
+    }
+    &:last-child{
+      border-bottom-width: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  label, .title{
+    width: 60px;
+    text-align: right;
+  }
+  .title{
+    color: $blue;
+    margin-bottom: $gap-xs;
+  }
+  .body{
+    display: inline-block;
+    border: 0px solid $little-gray;
+    border-right-width: 1px;
+    vertical-align: middle;
+    .item{
+      width: 330px;
+      color: $fc-gray;
+      font-weight: lighter;
+      label{
+        font-weight: lighter;
+        margin-right: $gap-xs;
+      }
+    }
+    &.msg{
+      border-right-width: 0px;
+      .item{
+        width: 100%;
+        .deny_msg{
+          position: relative;
+          display: inline-block;
+          width: 320px;
+          background-color: $little-gray;
+          margin-left: 70px;
+          padding: $gap-s $gap-m $gap-s;
+          div{
+            display: inline-block;
+            p{
+              margin: 0px;
+            }
+          }
+          img{
+            margin-right: $gap-m;
+            float: left;
+          }
+          .goto{
+            position: absolute;
+            padding: $gap-xs $gap-s $gap-xs;
+            color: $white;
+            background-color: $blue;
+            right: 0px;
+            bottom: $gap-s;
+            border-right-width:0px;
+            /* Required for Down Triangle */
+            &:before{
+              content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-color: transparent;
+              // border-bottom: 0;
+            }
+            /* Stroke */
+            &:before {
+              top: -0px;
+              right: -15px;
+              /* If 1px darken stroke slightly */
+              border-left-color: $blue;
+              border-width: 15px 0 15px 15px;
+            }
+          }
+        }
+      }
+    }
+    .progress{
+      width: 200px;
+      border-radius: 0px;
+      background: $little-gray;
+      display: inline-block;
+      margin-bottom: 0px;
+      box-shadow: none;
+      span{
+        color: $gray;
+        margin-left: $gap-xs;
+      }
+      .progress-bar{
+        box-shadow: none;
+        float: none;
+        background-color: $blue;
+        background-image: none;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        padding-right: $gap-s;
+      }
+      &.progress-gray, &.progress-light-gray{
+        background: none;
+      }
+      &.progress-gray{
+        .progress-bar{
+          background-color: $gray;
+        }
+
+      }
+      &.progress-light-gray{
+        .progress-bar{
+          background-color: $little-gray;
+        }
+      }
+      &.progress-yellow{
+        .progress-bar{
+          background-color: $yellow;
+        }
+      }
+      &.progress-lighter-blue{
+        .progress-bar{
+          background-color: $lighter-blue;
+        }
+      }
+
+    }
+    .value{
+      float: right;
+      // display: inline-block;
+      // width: 42px;
+      margin-right: $gap-xs;
+    }
+  }
+  .total{
+    margin-left: $gap-s;
+    color: $blue;
+    display: inline-block;
+    width: 53px;
+    text-align: right;
+  }
+}
