@@ -1,0 +1,8 @@
+@mixin linear-background{
+  background-image: -webkit-linear-gradient(right, $red 0%, $yellow 100%);
+  background-image: -o-linear-gradient(right, $red 0%, $yellow 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from($red), to($yellow));
+  background-image: linear-gradient(to right, $red 0%, $yellow 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+  background-repeat: repeat-x;
+}

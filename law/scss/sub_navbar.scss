@@ -1,9 +1,11 @@
 @import "variable";
+@import "mixin";
 
 .sub-navbar{
   .count-down{
     color: $white;
     display: inline-block;
+    margin-bottom: $gap-s;
     &.answer{
       background-color: $yellow;
       .counter{
@@ -17,6 +19,22 @@
       .counter{
         span{
           color: $red;
+        }
+      }
+    }
+    &.bg-linear{
+      @include linear-background;
+      .counter{
+        span{
+          color: $red;
+        }
+      }
+    }
+    &.bg-brown{
+      background-color: $brown;
+      .counter{
+        span{
+          color: $brown;
         }
       }
     }
@@ -44,7 +62,7 @@
     margin-bottom: $gap-s;
     &:hover{
       .item{
-        background-color: #998675;
+        background-color: $brown;
       }
     }
   }
@@ -60,12 +78,21 @@
       border-width: 0px;
       border-left-width: $border-xs;
       border-style: solid;
+      &.disable{
+        background-color: rgba( $lighter-brown, .2 )
+      }
     }
     &.question{
       border-color: $red;
+      &.disable{
+        border-color: rgba( $red, .2 )
+      }
     }
     &.answer{
       border-color: $yellow;
+      &.disable{
+        border-color: rgba( $yellow, .2 )
+      }
     }
   }
 }
