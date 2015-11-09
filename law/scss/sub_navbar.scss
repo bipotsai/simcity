@@ -79,6 +79,7 @@
     background-color: $lighter-brown;
     font-size: $fs-secondary;
     padding-top: 4px;
+    line-height: 23px;
     &.question, &.answer{
       border-width: 0px;
       border-left-width: $border-xs;
