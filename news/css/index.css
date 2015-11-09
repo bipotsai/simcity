@@ -1,0 +1,151 @@
+.date_font_family{
+    font-family: "Lucida Bright";
+}
+.type_bar_date{
+    display: inline-block;
+    font-size: 20px;
+}
+.col-lg-12{
+    padding-left: 0px;
+}
+.type_bar_clock{
+    position: relative;
+}
+.type_bar_left_line{
+    width: 15px;
+    height: 2px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #33cccc;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 75px;
+}
+.type_bar{
+    width: 95px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    padding: 5px 0px 0px 37px;
+    position: absolute;   
+}
+.type_bar_right_line{
+    width: 497px;
+    height: 2px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #33cccc;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 410px;
+}
+.type_1{
+    left:90px;
+}
+.type_2{
+    left:165px;
+}
+.type_3{
+    left:240px;
+}
+.type_4{
+    left:315px;
+}
+.line{
+    color:#fafafa;
+}
+.timeline {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;    
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #33cccc;
+    left: 77px;
+    margin-left: -10px;
+}
+.timeline > li {
+    position: relative;
+}
+
+.timeline > li .tmtime {
+    display: block;
+    width: 25%;
+    padding-right: 100px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.timeline > li .tmicon {
+    content: url(../images/circle.png);
+    position: absolute;
+    top: 16px;
+    bottom: 0;
+    left: 71px;
+    margin-left: -10px;
+}
+.timeline > li .tmlabel {
+    margin: 20px 0 20px 9%;
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    padding: 0px 20px 20px 20px;
+    background-color: white;
+    position: relative;
+}
+.timeline > li .tmlabel_add {
+    margin: 20px 0 20px 60px;
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    padding: 0px 20px 20px 20px;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 0px 30px 0px;
+}
+.left_pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right_pic{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}
+.second_title{
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: #808080;
+}
+.context{
+    font-size: 14px;
+    color: #999999;
+}
+
+.timeline > li .tmlabel.left_space{
+    margin-left: 22%;
+}
+
+.timeline > li .tmlabel.left_space2{
+    margin-left: 37%;
+}
