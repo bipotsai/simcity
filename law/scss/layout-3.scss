@@ -1,0 +1,24 @@
+@import "variable";
+.layout-3{
+    .sub-title{
+        background-color: $brow-white;
+        padding: 60px 10px;
+        text-align: center;
+        color: $primary;
+    }
+    .itme-box{
+        margin: 25px 0px;
+        .question-box{
+            width: 55%;
+            .select_box{
+                float: right;
+                &.no-padding-right{
+                    padding-right: 0px;
+                }
+            }
+        }
+        &.status .list-item{
+            margin: 5px 0px;
+        }
+    }
+}

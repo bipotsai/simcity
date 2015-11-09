@@ -356,7 +356,8 @@ body > .container {
 
 /**/
 .index_header {
-  padding: 32px 0; }
+  padding: 32px 0px;
+  padding-bottom: 10px; }
 
 .header_logo {
   float: left; }
@@ -546,7 +547,7 @@ body > .container {
   border: 1px solid #eee; }
 
 .footer_menu {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
   padding: 15px 0px; }
   .footer_menu a {
     border-right: 1px solid #666;
@@ -556,7 +557,7 @@ body > .container {
     .footer_menu a:last-child {
       border-right: 0px; }
     .footer_menu a:hover {
-      color: #33CCCC; }
+      color: #33cccc; }
 
 .footer {
   line-height: 60px;
@@ -564,6 +565,29 @@ body > .container {
   height: 60px;
   padding: 0px 10px;
   color: #CCCCCC;
-  background-color: #4D4D4D; }
+  background-color: #4d4d4d; }
 
-/*# sourceMappingURL=main.css.map */
+.progress-style-1 {
+  overflow: hidden;
+  width: 100%;
+  position: relative; }
+  .progress-style-1 .progress {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 1px solid #e03e52;
+    box-shadow: none;
+    width: calc(100% - 50px);
+    float: left;
+    margin: 0px; }
+    .progress-style-1 .progress .progress-bar {
+      background-image: none;
+      background-color: #e03e52;
+      box-shadow: none;
+      text-align: left;
+      padding: 0px 10px; }
+  .progress-style-1 .percent {
+    color: #e03e52;
+    width: 50px;
+    float: left;
+    text-align: right; }

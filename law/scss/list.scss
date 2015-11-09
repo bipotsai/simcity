@@ -36,6 +36,7 @@
           padding-left: $gap-s;
           background-image: none;
           background-color: $red;
+          box-shadow: none;
         }
       }
       .percent{
@@ -49,8 +50,8 @@
     display: table-cell;
     width: auto;
     height: $list-item-height;
-    padding-left: $gap-m;
-    padding-right: $gap-m;
+    padding-left: $gap-s;
+    padding-right: $gap-s;
     font-size: $fs-primary;
     vertical-align: middle;
     margin-bottom: $gap-s;
@@ -68,11 +69,6 @@
       padding-right: $gap-xl;
     }
   }
-  &:nth-child(even){
-    .simple-topic-item-1{
-      background-color: $brow-white;
-    }
-  }
   .simple-topic-item-1{
     display: inline-block;
     background-color: $white;
@@ -84,6 +80,9 @@
       @media screen and (min-width: $screen-md) {
         width: 55%;
       }
+    }
+    &.brow{
+      background-color: $brow-white;
     }
     &.compete{
       padding-top: 0px;
@@ -129,7 +128,6 @@
         // border-width: 19px;
       }
       span{
-        margin-left: $gap-xs;
         &.change-to{
           color: $blue;
           font-size: $fs-secondary;
