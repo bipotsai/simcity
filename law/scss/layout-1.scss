@@ -1,5 +1,8 @@
 @import "variable";
 .layout-1{
+    .title-area, .body-area{
+        margin-bottom: $gap-xl;
+    }
     .section{
         padding-bottom: 65px;
         .fliter{

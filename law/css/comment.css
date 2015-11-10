@@ -77,6 +77,11 @@
     padding-right: 10px;
     margin-bottom: 10px; }
 
+.row:last-child .message-list-left, .row:last-child .message-list-right {
+  margin-bottom: 0px; }
+  .row:last-child .message-list-left .date, .row:last-child .message-list-right .date {
+    margin-bottom: 0px; }
+
 .arrow_right_box {
   position: relative;
   background: #fff;

@@ -106,6 +106,14 @@
         margin-bottom: $gap-s;
     }
 }
+.row:last-child{
+    .message-list-left, .message-list-right{
+        margin-bottom: 0px;
+        .date{
+            margin-bottom: 0px;
+        }
+    }
+}
 
 .arrow_right_box {
     position: relative;
