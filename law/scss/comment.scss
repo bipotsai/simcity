@@ -115,62 +115,56 @@
     }
 }
 
-.arrow_right_box {
+
+.arrow_left_box, .arrow_right_box{
+    text-align: justify;
+    text-justify: auto; // For IE
     position: relative;
-    background: #fff;
-    border: 2px solid $pink;
-    padding: 6px 10px;
+    background: $white;
+    padding: $gap-s;
     border-radius: 8px;
+    min-height: $height-l;
+    border: 2px solid;
     &:after, &:before{
-        right: 100%;
         top: 20px;
         border: solid transparent;
         content: " ";
         height: 0;
         width: 0;
         position: absolute;
-        pointer-events: none;
+    }
+    &:after{
+        border-width: 6px 16px 6px;
+        margin-top: -10px;
+    }
+    &:before{
+        border-width: 9px 20px 9px;
+        margin-top: -13px;
+    }
+}
+
+.arrow_right_box {
+    border-color: $pink;
+    &:after, &:before{
+        right: 100%;
     };
     &:after{
-        border-color: rgba(136, 183, 213, 0);
-        border-right-color: #fff;
-        border-width: 6px 16px 6px 0px;
-        margin-top: -10px;
+        border-right-color: $white;
     };
     &:before{
-        border-color: rgba(194, 225, 245, 0);
         border-right-color: $pink;
-        border-width: 9px 20px 9px 0px;
-        margin-top: -13px;
     };
 }
 
 .arrow_left_box {
-    position: relative;
-    background: #fff;
-    border: 2px solid $yellow;
-    padding: 6px 10px;
-    border-radius: 8px;
+    border-color: $yellow;
     &:after, &:before{
         left: 100%;
-        top: 20px;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
     };
     &:after{
-        border-color: rgba(136, 183, 213, 0);
-        border-left-color: #fff;
-        border-width: 6px 16px 6px;
-        margin-top: -10px;
+        border-left-color: $white;
     };
     &:before{
-        border-color: rgba(194, 225, 245, 0);
         border-left-color: $yellow;
-        border-width: 9px 20px 9px;
-        margin-top: -13px;
     };
 }

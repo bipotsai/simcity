@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,aAAa;EACX,aAAa,EAAE,QAAQ;;AAIzB,cAAc;EACZ,YAAY,EAAE,IAAI;;;AAIpB,UAAU;EACR,KAAK,EC4BA,OAAO",
-"sources": ["../scss/common.scss","../scss/_variable.scss"],
-"names": [],
-"file": "common.css"
-}

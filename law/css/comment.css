@@ -82,56 +82,45 @@
   .row:last-child .message-list-left .date, .row:last-child .message-list-right .date {
     margin-bottom: 0px; }
 
-.arrow_right_box {
+.arrow_left_box, .arrow_right_box {
+  text-align: justify;
+  text-justify: auto;
   position: relative;
-  background: #fff;
-  border: 2px solid #FF9999;
-  padding: 6px 10px;
-  border-radius: 8px; }
-  .arrow_right_box:after, .arrow_right_box:before {
-    right: 100%;
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 40px;
+  border: 2px solid; }
+  .arrow_left_box:after, .arrow_left_box:before, .arrow_right_box:after, .arrow_right_box:before {
     top: 20px;
     border: solid transparent;
     content: " ";
     height: 0;
     width: 0;
-    position: absolute;
-    pointer-events: none; }
-  .arrow_right_box:after {
-    border-color: rgba(136, 183, 213, 0);
-    border-right-color: #fff;
-    border-width: 6px 16px 6px 0px;
-    margin-top: -10px; }
-  .arrow_right_box:before {
-    border-color: rgba(194, 225, 245, 0);
-    border-right-color: #FF9999;
-    border-width: 9px 20px 9px 0px;
-    margin-top: -13px; }
-
-.arrow_left_box {
-  position: relative;
-  background: #fff;
-  border: 2px solid #FFCC00;
-  padding: 6px 10px;
-  border-radius: 8px; }
-  .arrow_left_box:after, .arrow_left_box:before {
-    left: 100%;
-    top: 20px;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none; }
-  .arrow_left_box:after {
-    border-color: rgba(136, 183, 213, 0);
-    border-left-color: #fff;
+    position: absolute; }
+  .arrow_left_box:after, .arrow_right_box:after {
     border-width: 6px 16px 6px;
     margin-top: -10px; }
-  .arrow_left_box:before {
-    border-color: rgba(194, 225, 245, 0);
-    border-left-color: #FFCC00;
+  .arrow_left_box:before, .arrow_right_box:before {
     border-width: 9px 20px 9px;
     margin-top: -13px; }
+
+.arrow_right_box {
+  border-color: #FF9999; }
+  .arrow_right_box:after, .arrow_right_box:before {
+    right: 100%; }
+  .arrow_right_box:after {
+    border-right-color: #FFFFFF; }
+  .arrow_right_box:before {
+    border-right-color: #FF9999; }
+
+.arrow_left_box {
+  border-color: #FFCC00; }
+  .arrow_left_box:after, .arrow_left_box:before {
+    left: 100%; }
+  .arrow_left_box:after {
+    border-left-color: #FFFFFF; }
+  .arrow_left_box:before {
+    border-left-color: #FFCC00; }
 
 /*# sourceMappingURL=comment.css.map */
