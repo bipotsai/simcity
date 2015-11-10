@@ -123,14 +123,27 @@
     .grid.grid-brown .panel-body .info.right {
       color: #998675; }
 
+.v-line {
+  border-right: 1px solid #736357; }
+
 .panel-menu {
-  color: #736357; }
+  color: #736357;
+  font-weight: lighter; }
+  .panel-menu .v-line {
+    margin: 0px 7px 0px 3px; }
+  .panel-menu .actions {
+    margin-left: 15px; }
+    .panel-menu .actions.question a.active {
+      color: #E03E52; }
+    .panel-menu .actions.answer a.active {
+      color: #FFCC00; }
   .panel-menu a {
-    color: #736357;
-    padding: 0px 10px 0px 5px;
-    border-right: 1px solid #736357; }
+    color: #736357; }
+    .panel-menu a.active, .panel-menu a:hover {
+      color: #C7B299; }
     .panel-menu a:last-child {
-      border-right: 0px; }
+      border-right: 0px;
+      margin-right: 20px; }
     .panel-menu a.red_active {
       color: #E03E52; }
     .panel-menu a.yellow_active {
