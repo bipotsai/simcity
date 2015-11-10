@@ -22,7 +22,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   margin-bottom: 10px;
   min-height: 90px;
   &.column{
@@ -86,7 +86,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   margin-bottom: 10px;
   min-height: 90px;
   h3{
@@ -175,7 +175,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   // margin-bottom: 10px;
   h1{
     color: $primary;
@@ -254,7 +254,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   margin-bottom: 10px;
   h3{
     color: $primary;
@@ -318,7 +318,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   &.column{
     .battle{
       .icon{
@@ -352,6 +352,9 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    div{
+      display: inline-block;
+    }
     span:last-child{
       margin-left: 15px;
     };
@@ -435,7 +438,7 @@
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
-  overflow: hidden;
+  // overflow: hidden;
   margin-bottom: 10px;
   min-height: 90px;
   h1{

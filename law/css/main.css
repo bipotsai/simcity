@@ -592,4 +592,48 @@ body > .container {
     float: left;
     text-align: right; }
 
+.progress-style-2 {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: 10px;
+  height: 40px; }
+  .progress-style-2 .progress {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    width: calc(100% - 50px);
+    float: left;
+    margin: 0px; }
+    .progress-style-2 .progress .progress-bar {
+      background-image: none;
+      box-shadow: none;
+      text-align: left;
+      padding: 0px 10px;
+      min-width: 28px; }
+    .progress-style-2 .progress .percent {
+      width: 50px;
+      padding-left: 10px;
+      position: absolute; }
+    .progress-style-2 .progress.red-bar .progress-bar {
+      background-color: #E03E52; }
+    .progress-style-2 .progress.red-bar .percent {
+      color: #E03E52; }
+    .progress-style-2 .progress.little-red-bar .progress-bar {
+      background-color: rgba(224, 62, 82, 0.5); }
+    .progress-style-2 .progress.little-red-bar .percent {
+      color: #E03E52; }
+    .progress-style-2 .progress.light-red-bar .progress-bar {
+      background-color: #FF9999; }
+    .progress-style-2 .progress.light-red-bar .percent {
+      color: #FF9999; }
+    .progress-style-2 .progress.little-gray-bar .progress-bar {
+      background-color: #E6E6E6; }
+    .progress-style-2 .progress.little-gray-bar .percent {
+      color: #E6E6E6; }
+
+.cos-row {
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=main.css.map */
