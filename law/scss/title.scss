@@ -319,6 +319,18 @@
   background-color: #fff;
   box-shadow: 1px 1px 1px #C7C7C7;
   overflow: hidden;
+  &.column{
+    .battle{
+      .icon{
+        margin-top: 0px;
+      }
+      .left, .right{
+        .img{
+          margin-top: 0px !important;
+        }
+      }
+    }
+  }
   h3{
     color: $primary;
     text-align: left;
@@ -327,6 +339,13 @@
     margin-bottom: 0px;
     padding-right: 40px;
     margin-top: 0px;
+  }
+  .caption {
+    font-size: $fs-l;
+    color: $primary;
+    font-weight:lighter;;
+    text-align: center;
+    margin: $gap-xl 30px $gap-m;
   }
   .clock-box{
     padding: 0px 15px;
