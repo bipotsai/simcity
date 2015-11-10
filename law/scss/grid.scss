@@ -222,5 +222,11 @@
     &:last-child{
       border-right: 0px;
     };
+    &.red_active{
+      color: $red;
+    }
+    &.yellow_active{
+      color: $yellow;
+    }
   }
 }
