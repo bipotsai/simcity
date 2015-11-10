@@ -25,14 +25,11 @@
   // overflow: hidden;
   margin-bottom: 10px;
   min-height: 90px;
-  &.column{
-    height: $height-xl;
-  }
   h1, .caption{
     color: $primary;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px;
+    padding: 25px 0px;
   }
   .caption{
     font-size: $fs-l;
@@ -93,7 +90,7 @@
     color: $primary;
     text-align: left;
     font-size: 16px;
-    margin: 15px;
+    padding: 15px;
   }
   .progress{
     height: 15px;
@@ -181,7 +178,7 @@
     color: $primary;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px;
+    padding: 25px 0px;
   }
   .progress-box-2{
     padding: 0px ;
@@ -445,7 +442,7 @@
     color: $primary;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px;
+    padding: 25px 0px;
   }
   .name{
     font-size: 17px;

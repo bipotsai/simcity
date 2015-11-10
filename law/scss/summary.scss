@@ -69,6 +69,9 @@
           background-color: $little-gray;
           margin-left: 70px;
           padding: $gap-s $gap-m $gap-s;
+          @media screen and (max-width: $screen-s) {
+            width: auto;
+          }
           div{
             display: inline-block;
             p{

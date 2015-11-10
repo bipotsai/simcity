@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>法制局</title>
+    <link href="images/favicon.ico" rel="shortcut icon"></link>
+    <link href="css/select_mfs.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/main.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/common.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/category.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/title.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/quick_actions.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/list.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/layout-1.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/grid.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/sub_navbar.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/comment.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/summary.css" rel="stylesheet" type="text/css"></link>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.marquee.js"></script>
+    <script src="js/select_mfs.js"></script>
+    <script src="js/battle.js"></script>
+</head>
+<body>
+    <div class="container ">
+        <div class="container-ad visible-md visible-lg">
+            <div class="asider_rightitem">
+                <a href="#"><img src="http://image.sdo68.com/filer/web/LinkImages/LC000001/F000000001.jpg" alt="永恆愛的象徵" class="img_responsive"></a>
+            </div>
+
+            <div class="asider_rightitem">
+                <a href="#"><img src="http://image.sdo68.com/filer/web/LinkImages/LC000001/F000000001.jpg" alt="永恆愛的象徵" class="img_responsive"></a>
+            </div>
+            <div class="asider_rightitem">
+                <a href="#"><img src="http://image.sdo68.com/filer/web/LinkImages/LC000001/F000000001.jpg" alt="永恆愛的象徵" class="img_responsive"></a>
+            </div>
+            <div class="asider_rightitem">
+                <a href="#"><img src="http://image.sdo68.com/filer/web/LinkImages/LC000001/F000000001.jpg" alt="永恆愛的象徵" class="img_responsive"></a>
+            </div>
+        </div>
+        <div class="container-main layout-1">
+            <nav class="navbar navbar-default">
+                <div class="container_fullwidth">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">台南市 - 社會局</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <div class="">
+                            <ul class="nav navbar-nav navbar-right nav-signin">
+                                <li class="signin">
+                                    <a href="#"> <span class="text">會員登入</span> <i class="icon"></i></a>
+                                </li>
+                                <li class="register">
+                                    <a href="#"> <span class="text">會員註冊</span> <i class="icon"></i></a>
+                                </li>
+                            </ul>
+                            <div class="nav-marquee">
+                                <h3 class="title">
+                                    <span class="hidden-xs imgword_1">即時消息</span><i class="icon"></i>
+                                </h3>
+                                <div class="marquee_text">
+                                         <div class="word" style="height: 32px;"><div class="js-marquee-wrapper" style="margin-top: 0px; animation: marqueeAnimation-59815990 8.90625s linear 0s infinite;"><div class="js-marquee" style="margin-right: 0px; float: none; margin-bottom: 50px;">
+                                       這是來是各處室的即時重大消息，由後台直接發佈＋網頁連結
+
+                                     </div><div class="js-marquee" style="margin-right: 0px; float: none; margin-bottom: 0px;">
+                                       這是來是各處室的即時重大消息，由後台直接發佈＋網頁連結
+
+                                     </div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <header class="index_header" id="index_header">
+                <div class="container_fullwidth">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="header_logo">
+                                <img src="images/header_logo.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" >
+                                    <a href="進行議題.html">
+                                        進行議題
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="尋找議題.html">
+                                        尋找議題
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="提出議題.html">
+                                        提出議題
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="關注議題.html">
+                                        關注議題
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="議題內容.html">
+                                        議題內容
+                                    </a>
+                                </li>
+                                <li role="presentation" class="active">
+                                    <a href="數據統計.html">
+                                        數據統計
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container_fullwidth">
+            <!-- Body Area Start -->
+              <div class="body-area">
+                <!-- First Row Start -->
+                <div class="cus-row">
+                  <div class="title-1 middle quick-actions column">
+                    <div class="caption">臺灣是否適合成為非核家園</div>
+                    <div class="star">
+                        <img src="images/yello_star.png">
+                    </div>
+                    <a href="">
+                      <div class="arrow_down">其他統計 </div>
+                    </a>
+                  </div>
+                  <!-- Blue Arrow -->
+                  <div class="col-arrow hidden-xs">
+                    <img src="images/icon_right_arrow.png">
+                  </div>
+                  <!-- Blue Arrow -->
+                    <div class="summary column items-2 align-top">
+                      <div class="item-group main">
+                        <div class="body">
+                        <div class="item">
+                          <label>
+                            是
+                          </label>
+                          <div class="progress progress-yellow">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                              75%
+                            </div>
+                          </div>
+                          <div class="value">
+                            17,592
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            否
+                          </label>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                              25%
+                            </div>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                      </div>
+                      <div class="total">
+                        23,456
+                      </div>
+                    </div>
+
+                    <div class="item-group">
+                      <div class="title">
+                        性別
+                      </div>
+                      <div class="body">
+                        <div class="item">
+                          <label>
+                            男
+                          </label>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                              60%
+                            </div>
+                          </div>
+                          <div class="value">
+                            13,345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            女
+                          </label>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                              60%
+                            </div>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                      </div>
+                      <div class="total">
+                        23,456
+                      </div>
+                    </div>
+
+                    <div class="item-group">
+                      <div class="title">
+                        學歷
+                      </div>
+                      <div class="body">
+                        <div class="item">
+                          <label>
+                            研究所
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                            </div>
+                            <span>20%</span>
+                          </div>
+                          <div class="value">
+                            13,345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            大學
+                          </label>
+                          <div class="progress progress-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            60%
+                            </div>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            大學
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+                            </div>
+                            <span>15%</span>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            大學
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                            </div>
+                            <span>5%</span>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                      </div>
+                      <div class="total">
+                        456
+                      </div>
+                    </div>
+
+                    <div class="item-group">
+                      <div class="title">
+                        居住地區
+                      </div>
+                      <div class="body msg">
+                        <div class="item">
+                          <label>
+
+                          </label>
+                          <div class="deny_msg">
+                            <img src="images/icon_stop.png">
+                            <div>
+                              <p>抱歉！基於資訊共享原則</p>
+                              <p>請先完成您的相關資料</p>
+                              <p>才能詳閱該資訊</p>
+                            </div>
+                            <div class="goto">
+                              人事處
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-group">
+                      <div class="title">
+                        出風地區
+                      </div>
+                      <div class="body">
+                        <div class="item">
+                          <label>
+                            北部
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                            </div>
+                            <span>20%</span>
+                          </div>
+                          <div class="value">
+                            13,345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            中部
+                          </label>
+                          <div class="progress progress-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            60%
+                            </div>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            東部
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+                            </div>
+                            <span>15%</span>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                        <div class="item">
+                          <label>
+                            南部
+                          </label>
+                          <div class="progress progress-light-gray">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                            </div>
+                            <span>5%</span>
+                          </div>
+                          <div class="value">
+                            345
+                          </div>
+                        </div>
+                      </div>
+                      <div class="total">
+                        456
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Body Area End -->
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center ">
+                    <div class="footer_menu">
+                        <a href="#">市政廳</a>
+                        <a href="#">都發局</a>
+                        <a href="#">社會局</a>
+                        <a href="#">新聞局</a>
+                        <a href="#">教育局</a>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="footer"><p>2015版權所有  圓滿數位設計</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $('.js-marquee-wrapper').marquee();
+        $.each($('.mfs_select'), function(index, value){
+          $(value).mfs();
+        });
+        $('.battle').battle();
+    });
+</script>
+
+</html>

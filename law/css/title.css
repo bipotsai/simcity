@@ -1,15 +1,15 @@
 .progress {
-  background-image: -webkit-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
-  background-image: -o-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
-  background-image: -webkit-gradient(linear, left right, left right, from(#E03E52), to(#FFCC00));
-  background-image: linear-gradient(to right, #E03E52 0%, #FFCC00 100%);
+  background-image: -webkit-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+  background-image: -o-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from(#e03e52), to(#ffcc00));
+  background-image: linear-gradient(to right, #e03e52 0%, #ffcc00 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
   background-repeat: repeat-x;
   overflow: visible; }
 
 .coffee-box {
   color: #534741;
-  background-color: #D8C9B7;
+  background-color: #d8c9b7;
   padding: 7px 10px 7px 5px;
   border-top-right-radius: 50px 50px;
   border-bottom-right-radius: 50px 50px;
@@ -23,13 +23,11 @@
   box-shadow: 1px 1px 1px #C7C7C7;
   margin-bottom: 10px;
   min-height: 90px; }
-  .title-1.column {
-    height: 100px; }
   .title-1 h1, .title-1 .caption {
     color: #534741;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px; }
+    padding: 25px 0px; }
   .title-1 .caption {
     font-size: 32px;
     font-weight: lighter; }
@@ -77,7 +75,7 @@
     color: #534741;
     text-align: left;
     font-size: 16px;
-    margin: 15px; }
+    padding: 15px; }
   .title-2 .progress {
     height: 15px;
     margin-bottom: 0px; }
@@ -123,12 +121,12 @@
     .title-2 .progress-box-2 .progress {
       background-image: none;
       background-color: transparent;
-      border: 1px solid #E03E52;
+      border: 1px solid #e03e52;
       border-radius: 0px; }
       .title-2 .progress-box-2 .progress .progress-bar {
-        background-color: #E03E52; }
+        background-color: #e03e52; }
     .title-2 .progress-box-2 .info-box {
-      color: #E03E52;
+      color: #e03e52;
       line-height: 15px; }
     @media screen and (max-width: 768px) {
       .title-2 .progress-box-2 .info-box {
@@ -143,7 +141,7 @@
     color: #534741;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px; }
+    padding: 25px 0px; }
   .title-3 .progress-box-2 {
     padding: 0px;
     padding-bottom: 25px;
@@ -158,7 +156,7 @@
         height: 40px;
         padding: 0px 10px;
         line-height: 40px;
-        background-color: #E03E52;
+        background-color: #e03e52;
         float: left; }
       .title-3 .progress-box-2 .left-user i {
         font-style: inherit;
@@ -172,7 +170,7 @@
         height: 40px;
         padding: 0px 10px;
         line-height: 40px;
-        background-color: #FFCC00;
+        background-color: #ffcc00;
         float: right; }
       .title-3 .progress-box-2 .right-user i {
         font-style: inherit;
@@ -217,13 +215,13 @@
     .title-4 .progress-bar .number {
       position: absolute;
       right: -30px;
-      color: #E03E52; }
+      color: #e03e52; }
     .title-4 .progress-bar.color-1 {
-      background-color: #E03E52; }
+      background-color: #e03e52; }
     .title-4 .progress-bar.color-2 {
       background-color: rgba(224, 62, 82, 0.5); }
     .title-4 .progress-bar.color-3 {
-      background-color: #FF9999; }
+      background-color: #ff9999; }
   .title-4 .progress {
     height: 10px;
     margin-bottom: 0px;
@@ -296,12 +294,12 @@
         float: left;
         text-align: center; }
         .title-5 .battle .left .user .number {
-          color: #E03E52; }
+          color: #e03e52; }
         .title-5 .battle .left .user .name {
           color: #fff;
           line-height: 40px;
           height: 40px;
-          background-color: #E03E52;
+          background-color: #e03e52;
           padding: 0px 5px;
           box-shadow: 1px 2px 1px #AFAFAF; }
       .title-5 .battle .left .img {
@@ -319,12 +317,12 @@
         float: right;
         text-align: center; }
         .title-5 .battle .right .user .number {
-          color: #E03E52; }
+          color: #e03e52; }
         .title-5 .battle .right .user .name {
           color: #fff;
           line-height: 40px;
           height: 40px;
-          background-color: #FFCC00;
+          background-color: #ffcc00;
           padding: 0px 5px;
           box-shadow: -2px 2px 1px #AFAFAF; }
       .title-5 .battle .right .img {
@@ -348,7 +346,7 @@
     color: #534741;
     text-align: center;
     font-size: 38px;
-    margin: 25px 0px; }
+    padding: 25px 0px; }
   .title-6 .name {
     font-size: 17px;
     padding: 0px 0px 45px 0px;
@@ -365,5 +363,3 @@
           text-align: left; }
         .title-6 .name:last-child {
           text-align: left; } }
-
-/*# sourceMappingURL=title.css.map */

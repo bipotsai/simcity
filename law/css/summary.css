@@ -1,7 +1,7 @@
 .summary {
   max-width: 440px;
   padding: 20px 10px 20px;
-  border: 1px solid #33CCCC; }
+  border: 1px solid #33cccc; }
   .summary.column.align-top {
     vertical-align: top; }
   .summary.column.items-2 {
@@ -11,7 +11,7 @@
       .summary.column.items-2 .item:last-child {
         margin-bottom: 0px; }
   .summary .item-group {
-    border: 0px dashed #33CCCC;
+    border: 0px dashed #33cccc;
     border-bottom-width: 2px;
     margin-bottom: 10px;
     padding-bottom: 10px; }
@@ -28,16 +28,16 @@
     color: #333333;
     margin-bottom: 0px; }
   .summary .title {
-    color: #33CCCC;
+    color: #33cccc;
     margin-bottom: 5px; }
   .summary .body {
     display: inline-block;
-    border: 0px solid #E6E6E6;
+    border: 0px solid #e6e6e6;
     border-right-width: 1px;
     vertical-align: middle; }
     .summary .body .item {
       width: 330px;
-      color: #999;
+      color: #999999;
       font-weight: lighter; }
       .summary .body .item label {
         font-weight: lighter;
@@ -50,9 +50,12 @@
           position: relative;
           display: inline-block;
           width: 320px;
-          background-color: #E6E6E6;
+          background-color: #e6e6e6;
           margin-left: 70px;
           padding: 10px 15px 10px; }
+          @media screen and (max-width: 768px) {
+            .summary .body.msg .item .deny_msg {
+              width: auto; } }
           .summary .body.msg .item .deny_msg div {
             display: inline-block; }
             .summary .body.msg .item .deny_msg div p {
@@ -63,8 +66,8 @@
           .summary .body.msg .item .deny_msg .goto {
             position: absolute;
             padding: 5px 10px 5px;
-            color: #FFFFFF;
-            background-color: #33CCCC;
+            color: white;
+            background-color: #33cccc;
             right: 0px;
             bottom: 10px;
             border-right-width: 0px;
@@ -81,22 +84,22 @@
               top: -0px;
               right: -15px;
               /* If 1px darken stroke slightly */
-              border-left-color: #33CCCC;
+              border-left-color: #33cccc;
               border-width: 15px 0 15px 15px; }
     .summary .body .progress {
       width: 200px;
       border-radius: 0px;
-      background: #E6E6E6;
+      background: #e6e6e6;
       display: inline-block;
       margin-bottom: 0px;
       box-shadow: none; }
       .summary .body .progress span {
-        color: #BDCCD4;
+        color: #bdccd4;
         margin-left: 5px; }
       .summary .body .progress .progress-bar {
         box-shadow: none;
         float: none;
-        background-color: #33CCCC;
+        background-color: #33cccc;
         background-image: none;
         display: inline-block;
         vertical-align: middle;
@@ -105,11 +108,11 @@
       .summary .body .progress.progress-gray, .summary .body .progress.progress-light-gray {
         background: none; }
       .summary .body .progress.progress-gray .progress-bar {
-        background-color: #BDCCD4; }
+        background-color: #bdccd4; }
       .summary .body .progress.progress-light-gray .progress-bar {
-        background-color: #E6E6E6; }
+        background-color: #e6e6e6; }
       .summary .body .progress.progress-yellow .progress-bar {
-        background-color: #FFCC00; }
+        background-color: #ffcc00; }
       .summary .body .progress.progress-lighter-blue .progress-bar {
         background-color: rgba(51, 204, 204, 0.2); }
     .summary .body .value {
@@ -117,9 +120,7 @@
       margin-right: 5px; }
   .summary .total {
     margin-left: 10px;
-    color: #33CCCC;
+    color: #33cccc;
     display: inline-block;
     width: 53px;
     text-align: right; }
-
-/*# sourceMappingURL=summary.css.map */
