@@ -15,6 +15,9 @@
         margin: 0px;
     }
     .col-arrow{
+        @media screen and (max-width: $screen-s) {
+            display: none;
+        }
         // img{
         //     margin-top: -$gap-s;
         // }

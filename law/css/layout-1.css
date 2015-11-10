@@ -7,6 +7,9 @@
   margin: 0px; }
   .layout-1 .column:first-child {
     vertical-align: middle; }
+@media screen and (max-width: 768px) {
+  .layout-1 .col-arrow {
+    display: none; } }
 .layout-1 .section {
   padding-bottom: 65px; }
   .layout-1 .section .fliter {
