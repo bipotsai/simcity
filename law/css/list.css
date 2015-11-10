@@ -1,0 +1,207 @@
+.list-item {
+  display: table;
+  width: 100%; }
+  @media screen and (max-width: 992px) {
+    .list-item {
+      margin-bottom: 10px; } }
+  .list-item .catetory-label {
+    display: table-cell;
+    width: 74px; }
+  .list-item .tail {
+    display: inline-block;
+    color: #E03E52;
+    font-size: 14px;
+    height: 40px;
+    vertical-align: top; }
+    @media screen and (min-width: 992px) {
+      .list-item .tail {
+        padding-top: 10px; } }
+    .list-item .tail.with-progress {
+      width: 100%; }
+      @media screen and (min-width: 992px) {
+        .list-item .tail.with-progress {
+          width: 43%; } }
+      .list-item .tail.with-progress .progress {
+        display: inline-block;
+        width: 80%;
+        background: none;
+        border: 1px solid #E03E52;
+        border-radius: 0px; }
+        .list-item .tail.with-progress .progress .progress-bar {
+          text-align: left;
+          padding-left: 10px;
+          background-image: none;
+          background-color: #E03E52;
+          box-shadow: none;
+          min-width: 28px; }
+      .list-item .tail.with-progress .percent {
+        vertical-align: top;
+        float: right; }
+      .list-item .tail.with-progress.type-2 .progress {
+        display: inline-block;
+        width: 80%;
+        background: none;
+        border-radius: 0px;
+        border: 0px;
+        box-shadow: none; }
+        .list-item .tail.with-progress.type-2 .progress .percent {
+          position: absolute;
+          padding-left: 10px; }
+        .list-item .tail.with-progress.type-2 .progress .progress-bar {
+          text-align: left;
+          padding-left: 10px;
+          background-image: none;
+          background-color: #E03E52;
+          box-shadow: none; }
+        .list-item .tail.with-progress.type-2 .progress.red-bar .progress-bar {
+          background-color: #E03E52; }
+        .list-item .tail.with-progress.type-2 .progress.red-bar .percent {
+          color: #E03E52; }
+        .list-item .tail.with-progress.type-2 .progress.little-red-bar .progress-bar {
+          background-color: rgba(224, 62, 82, 0.5); }
+        .list-item .tail.with-progress.type-2 .progress.little-red-bar .percent {
+          color: #E03E52; }
+        .list-item .tail.with-progress.type-2 .progress.light-red-bar .progress-bar {
+          background-color: #FF9999; }
+        .list-item .tail.with-progress.type-2 .progress.light-red-bar .percent {
+          color: #FF9999; }
+        .list-item .tail.with-progress.type-2 .progress.little-gray-bar .progress-bar {
+          background-color: #E6E6E6; }
+        .list-item .tail.with-progress.type-2 .progress.little-gray-bar .percent {
+          color: #E6E6E6; }
+  .list-item.bg-brown .simple-topic-item-1 {
+    background-color: #F7F4F1; }
+    .list-item.bg-brown .simple-topic-item-1:after {
+      border-left-color: #F7F4F1; }
+
+.descrip, .simple-topic-item-1 {
+  margin-right: 10px;
+  display: table-cell;
+  width: auto;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-bottom: 10px; }
+
+.secondary-text {
+  font-size: 14px;
+  display: inline-block;
+  float: right; }
+  .secondary-text img {
+    margin-left: 10px; }
+
+.descrip {
+  color: #534741;
+  background-color: #fff; }
+  .descrip .secondary-text {
+    color: #E03E52;
+    padding-right: 45px; }
+
+.simple-topic-item-1 {
+  display: inline-block;
+  background-color: #FFFFFF;
+  border: 1px solid #C7B299;
+  color: #534741;
+  padding-top: 8px; }
+  .simple-topic-item-1 .item {
+    border: 1px datted #998675; }
+  .simple-topic-item-1:first-child {
+    width: 100%; }
+    @media screen and (min-width: 992px) {
+      .simple-topic-item-1:first-child {
+        width: 55%; } }
+  .simple-topic-item-1.brow {
+    background-color: #F7F4F1; }
+  .simple-topic-item-1.compete {
+    padding-top: 0px; }
+    .simple-topic-item-1.compete .user-icon {
+      height: 39px; }
+  .simple-topic-item-1 .secondary-text {
+    color: #998675; }
+  .simple-topic-item-1.right-arrow {
+    background-color: #FFFFFF;
+    border-right-width: 0px;
+    margin-right: 20px;
+    position: relative;
+    /* Required for Down Triangle */
+    /* Stroke */
+    /* Fill */ }
+    .simple-topic-item-1.right-arrow:before, .simple-topic-item-1.right-arrow:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent; }
+    .simple-topic-item-1.right-arrow:before {
+      top: -1px;
+      right: -10px;
+      /* If 1px darken stroke slightly */
+      border-left-color: #C7B299;
+      border-width: 20px 0 20px 10px; }
+    .simple-topic-item-1.right-arrow:after {
+      top: 1px;
+      right: -9px;
+      border-left-color: #FFFFFF;
+      border-width: 18px 0 18px 9px; }
+    .simple-topic-item-1.right-arrow span.change-to {
+      color: #33CCCC;
+      font-size: 14px; }
+
+.simple-topic-item-2 {
+  display: inline-block;
+  background-color: #FFFFFF;
+  border: 1px solid #C7B299;
+  color: #534741;
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+  .simple-topic-item-2 .title {
+    font-size: 16px; }
+  .simple-topic-item-2:first-child {
+    width: 100%; }
+    @media screen and (min-width: 992px) {
+      .simple-topic-item-2:first-child {
+        width: 55%; } }
+  .simple-topic-item-2 .more {
+    text-align: right;
+    font-size: 14px;
+    padding: 10px 0px; }
+    .simple-topic-item-2 .more a {
+      color: #998675; }
+  .simple-topic-item-2 .item {
+    margin: 5px 0px;
+    padding: 10px 0px;
+    border-bottom: 1px dotted #998675; }
+    .simple-topic-item-2 .item:nth-child(2) {
+      border-top: 1px solid #998675;
+      border-bottom: 1px solid #998675; }
+    .simple-topic-item-2 .item:nth-last-child(2) {
+      border-bottom: 1px solid #998675; }
+    .simple-topic-item-2 .item .info {
+      width: 38%;
+      height: 40px;
+      display: inline-block;
+      vertical-align: bottom;
+      margin-bottom: 5px; }
+      .simple-topic-item-2 .item .info span.name {
+        margin-left: 10px; }
+      .simple-topic-item-2 .item .info img {
+        display: inline-block;
+        vertical-align: bottom; }
+      .simple-topic-item-2 .item .info.right {
+        width: 60%;
+        height: auto;
+        text-align: right; }
+    .simple-topic-item-2 .item.type-a .body {
+      background-color: #F7F4F1;
+      padding: 10px; }
+    .simple-topic-item-2 .item.type-a .action {
+      text-align: right;
+      margin: 10px 5px; }
+      .simple-topic-item-2 .item.type-a .action img {
+        margin-left: 5px; }
+
+/*# sourceMappingURL=list.css.map */
