@@ -9,7 +9,7 @@
     width: 74px; }
   .list-item .tail {
     display: inline-block;
-    color: #E03E52;
+    color: #e03e52;
     font-size: 14px;
     height: 40px;
     vertical-align: top; }
@@ -25,13 +25,13 @@
         display: inline-block;
         width: 80%;
         background: none;
-        border: 1px solid #E03E52;
+        border: 1px solid #e03e52;
         border-radius: 0px; }
         .list-item .tail.with-progress .progress .progress-bar {
           text-align: left;
-          padding-left: 10px;
+          padding-left: 5px;
           background-image: none;
-          background-color: #E03E52;
+          background-color: #e03e52;
           box-shadow: none;
           min-width: 28px; }
       .list-item .tail.with-progress .percent {
@@ -51,28 +51,28 @@
           text-align: left;
           padding-left: 10px;
           background-image: none;
-          background-color: #E03E52;
+          background-color: #e03e52;
           box-shadow: none; }
         .list-item .tail.with-progress.type-2 .progress.red-bar .progress-bar {
-          background-color: #E03E52; }
+          background-color: #e03e52; }
         .list-item .tail.with-progress.type-2 .progress.red-bar .percent {
-          color: #E03E52; }
+          color: #e03e52; }
         .list-item .tail.with-progress.type-2 .progress.little-red-bar .progress-bar {
           background-color: rgba(224, 62, 82, 0.5); }
         .list-item .tail.with-progress.type-2 .progress.little-red-bar .percent {
-          color: #E03E52; }
+          color: #e03e52; }
         .list-item .tail.with-progress.type-2 .progress.light-red-bar .progress-bar {
-          background-color: #FF9999; }
+          background-color: #ff9999; }
         .list-item .tail.with-progress.type-2 .progress.light-red-bar .percent {
-          color: #FF9999; }
+          color: #ff9999; }
         .list-item .tail.with-progress.type-2 .progress.little-gray-bar .progress-bar {
-          background-color: #E6E6E6; }
+          background-color: #e6e6e6; }
         .list-item .tail.with-progress.type-2 .progress.little-gray-bar .percent {
-          color: #E6E6E6; }
+          color: #e6e6e6; }
   .list-item.bg-brown .simple-topic-item-1 {
-    background-color: #F7F4F1; }
+    background-color: #f7f4f1; }
     .list-item.bg-brown .simple-topic-item-1:after {
-      border-left-color: #F7F4F1; }
+      border-left-color: #f7f4f1; }
 
 .descrip, .simple-topic-item-1 {
   margin-right: 10px;
@@ -96,13 +96,13 @@
   color: #534741;
   background-color: #fff; }
   .descrip .secondary-text {
-    color: #E03E52;
+    color: #e03e52;
     padding-right: 45px; }
 
 .simple-topic-item-1 {
   display: inline-block;
-  background-color: #FFFFFF;
-  border: 1px solid #C7B299;
+  background-color: white;
+  border: 1px solid #c7b299;
   color: #534741;
   padding-top: 8px; }
   .simple-topic-item-1 .item {
@@ -113,7 +113,7 @@
       .simple-topic-item-1:first-child {
         width: 55%; } }
   .simple-topic-item-1.brow {
-    background-color: #F7F4F1; }
+    background-color: #f7f4f1; }
   .simple-topic-item-1.compete {
     padding-top: 0px; }
     .simple-topic-item-1.compete .user-icon {
@@ -121,7 +121,7 @@
   .simple-topic-item-1 .secondary-text {
     color: #998675; }
   .simple-topic-item-1.right-arrow {
-    background-color: #FFFFFF;
+    background-color: white;
     border-right-width: 0px;
     margin-right: 20px;
     position: relative;
@@ -139,21 +139,21 @@
       top: -1px;
       right: -10px;
       /* If 1px darken stroke slightly */
-      border-left-color: #C7B299;
+      border-left-color: #c7b299;
       border-width: 20px 0 20px 10px; }
     .simple-topic-item-1.right-arrow:after {
       top: 1px;
       right: -9px;
-      border-left-color: #FFFFFF;
+      border-left-color: white;
       border-width: 18px 0 18px 9px; }
     .simple-topic-item-1.right-arrow span.change-to {
-      color: #33CCCC;
+      color: #33cccc;
       font-size: 14px; }
 
 .simple-topic-item-2 {
   display: inline-block;
-  background-color: #FFFFFF;
-  border: 1px solid #C7B299;
+  background-color: white;
+  border: 1px solid #c7b299;
   color: #534741;
   padding: 8px 10px;
   margin-right: 10px;
@@ -196,12 +196,10 @@
         height: auto;
         text-align: right; }
     .simple-topic-item-2 .item.type-a .body {
-      background-color: #F7F4F1;
+      background-color: #f7f4f1;
       padding: 10px; }
     .simple-topic-item-2 .item.type-a .action {
       text-align: right;
       margin: 10px 5px; }
       .simple-topic-item-2 .item.type-a .action img {
         margin-left: 5px; }
-
-/*# sourceMappingURL=list.css.map */
