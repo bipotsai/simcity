@@ -88,6 +88,9 @@
         background-color: rgba( $lighter-brown, .2 )
       }
     }
+    &.brown{
+      background-color: $brown;
+    }
     &.question{
       border-color: $red;
       &.disable{
