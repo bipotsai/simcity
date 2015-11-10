@@ -1,9 +1,23 @@
 @import "variable";
 
 .summary{
-  max-width: 440px;
-  padding: $gap-s $gap-mm $gap-s;
+  max-width: $col-2-width;
+  padding: $gap-mm $gap-s $gap-mm;
   border: 1px solid $blue;
+  &.column{
+    &.align-top{
+      vertical-align: top;
+    }
+    &.items-2{
+      min-height: $height-xl;
+      .item{
+        margin-bottom: $gap-mm;
+        &:last-child{
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
   .item-group{
     border: 0px dashed $blue;
     border-bottom-width: 2px;
@@ -19,8 +33,12 @@
     }
   }
   label, .title{
-    width: 60px;
+    width: 70px;
     text-align: right;
+  }
+  label{
+    color: $darker-gray;
+    margin-bottom: 0px;
   }
   .title{
     color: $blue;

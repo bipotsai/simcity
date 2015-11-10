@@ -25,11 +25,18 @@
   overflow: hidden;
   margin-bottom: 10px;
   min-height: 90px;
-  h1{
+  &.column{
+    height: $height-xl;
+  }
+  h1, .caption{
     color: $primary;
     text-align: center;
     font-size: 38px;
     margin: 25px 0px;
+  }
+  .caption{
+    font-size: $fs-l;
+    font-weight: lighter;
   }
   .progress-box-1{
     padding: 0px 95px;

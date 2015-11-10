@@ -16,6 +16,7 @@ $lighter-gray: #fafafa;
 $little-gray: #E6E6E6;
 $gray: #BDCCD4;
 $dark-gary: #4D4D4D;
+$darker-gray: #333333;
 $blue: #33CCCC;
 $light-blue: rgba( $blue, .5 );
 $lighter-blue: rgba( $blue, .2 );
@@ -34,6 +35,10 @@ $gap-xxl: 50px;
 //height
 
 $height-l: 40px;
+$height-xl: 100px;
+// width
+
+$col-2-width: 440px;
 
 // border width
 $border-xs: 5px;
@@ -46,6 +51,7 @@ $blue: #33CCCC;
 
 // font-size
 $fs-xl: 35px;
+$fs-l: 32px;
 $fs-primary: 16px;
 $fs-secondary: 14px;
 

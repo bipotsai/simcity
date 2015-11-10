@@ -3,6 +3,21 @@
     .title-area, .body-area{
         margin-bottom: $gap-xl;
     }
+    .column, .col-arrow{
+        display: inline-block;
+        // margin-right: $gap-xs;
+    }
+    .column{
+        width: $col-2-width;
+        &:first-child{
+            vertical-align: middle;
+        }
+    }
+    .col-arrow{
+        // img{
+        //     margin-top: -$gap-s;
+        // }
+    }
     .section{
         padding-bottom: 65px;
         .fliter{
