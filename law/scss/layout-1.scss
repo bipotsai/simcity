@@ -3,15 +3,19 @@
     .title-area, .body-area{
         margin-bottom: $gap-xl;
     }
+    .cus-row{
+        margin-bottom: $gap-s;
+    }
     .column, .col-arrow{
         display: inline-block;
         // margin-right: $gap-xs;
     }
     .column{
-        width: $col-2-width;
+        width: $col-2-width !important;
         &:first-child{
             vertical-align: middle;
         }
+        margin: 0px;
     }
     .col-arrow{
         // img{

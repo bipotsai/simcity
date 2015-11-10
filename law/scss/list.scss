@@ -45,102 +45,102 @@
       }
     }
   }
-  .descrip, .simple-topic-item-1{
-    margin-right: $gap-s;
-    display: table-cell;
-    width: auto;
-    height: $list-item-height;
-    padding-left: $gap-s;
-    padding-right: $gap-s;
-    font-size: $fs-primary;
-    vertical-align: middle;
-    margin-bottom: $gap-s;
-  }
-  .secondary-text{
-    font-size: $fs-list-sec;
-    display: inline-block;
-    float: right;
-  }
-  .descrip{
-    color: $primary;
-    background-color: #fff;
-    .secondary-text{
-      color: $red;
-      padding-right: $gap-xl;
-    }
-  }
-  .simple-topic-item-1{
-    display: inline-block;
-    background-color: $white;
-    border: 1px solid $light-brown;
-    color: $primary;
-    padding-top: 8px;
-    &:first-child{
-      width: 100%;
-      @media screen and (min-width: $screen-md) {
-        width: 55%;
-      }
-    }
-    &.brow{
-      background-color: $brow-white;
-    }
-    &.compete{
-      padding-top: 0px;
-      .user-icon{
-        height: 39px;
-      }
-    }
-    .secondary-text{
-      color: $brown;
-    }
-    &.right-arrow{
-      background-color: $white;
-      // display: inline-block;
-      border-right-width:0px;
-      margin-right: 10px + $gap-s;
-      position: relative;
-      /* Required for Down Triangle */
-      &:before, &:after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-color: transparent;
-        // border-bottom: 0;
-      }
-      /* Stroke */
-      &:before {
-        top: -1px;
-        right: -10px;
-        /* If 1px darken stroke slightly */
-        border-left-color: $light-brown;
-        // border-width: 20px;
-        border-width: 20px 0 20px 10px;
-      }
-
-      /* Fill */
-      &:after {
-        top: 1px;
-        right: -9px;
-        border-left-color: $white;
-        border-width: 18px 0 18px 9px;
-        // border-width: 19px;
-      }
-      span{
-        &.change-to{
-          color: $blue;
-          font-size: $fs-secondary;
-        }
-      }
-    }
-  }
 
   &.bg-brown{
     .simple-topic-item-1{
       background-color: $brow-white;
       &:after{
         border-left-color: $brow-white;
+      }
+    }
+  }
+}
+.descrip, .simple-topic-item-1{
+  margin-right: $gap-s;
+  display: table-cell;
+  width: auto;
+  height: $list-item-height;
+  padding-left: $gap-s;
+  padding-right: $gap-s;
+  font-size: $fs-primary;
+  vertical-align: middle;
+  margin-bottom: $gap-s;
+}
+.secondary-text{
+  font-size: $fs-list-sec;
+  display: inline-block;
+  float: right;
+}
+.descrip{
+  color: $primary;
+  background-color: #fff;
+  .secondary-text{
+    color: $red;
+    padding-right: $gap-xl;
+  }
+}
+.simple-topic-item-1{
+  display: inline-block;
+  background-color: $white;
+  border: 1px solid $light-brown;
+  color: $primary;
+  padding-top: 8px;
+  &:first-child{
+    width: 100%;
+    @media screen and (min-width: $screen-md) {
+      width: 55%;
+    }
+  }
+  &.brow{
+    background-color: $brow-white;
+  }
+  &.compete{
+    padding-top: 0px;
+    .user-icon{
+      height: 39px;
+    }
+  }
+  .secondary-text{
+    color: $brown;
+  }
+  &.right-arrow{
+    background-color: $white;
+    // display: inline-block;
+    border-right-width:0px;
+    margin-right: 10px + $gap-s;
+    position: relative;
+    /* Required for Down Triangle */
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent;
+      // border-bottom: 0;
+    }
+    /* Stroke */
+    &:before {
+      top: -1px;
+      right: -10px;
+      /* If 1px darken stroke slightly */
+      border-left-color: $light-brown;
+      // border-width: 20px;
+      border-width: 20px 0 20px 10px;
+    }
+
+    /* Fill */
+    &:after {
+      top: 1px;
+      right: -9px;
+      border-left-color: $white;
+      border-width: 18px 0 18px 9px;
+      // border-width: 19px;
+    }
+    span{
+      &.change-to{
+        color: $blue;
+        font-size: $fs-secondary;
       }
     }
   }
