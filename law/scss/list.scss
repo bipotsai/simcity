@@ -37,11 +37,65 @@
           background-image: none;
           background-color: $red;
           box-shadow: none;
+          min-width: 28px;
         }
       }
       .percent{
         vertical-align: top;
         float: right;
+      }
+      &.type-2{
+        .progress{
+          display: inline-block;
+          width: 80%;
+          background: none;
+          border-radius: 0px;
+          border: 0px;
+          box-shadow: none;
+          .percent{
+            position: absolute;
+            padding-left: 10px;
+          }
+          .progress-bar{
+            text-align: left;
+            padding-left: $gap-s;
+            background-image: none;
+            background-color: $red;
+            box-shadow: none;
+          }
+          &.red-bar{
+              .progress-bar{
+                  background-color: $red;
+              }
+              .percent{
+                  color: $red;
+              }
+          }
+          &.little-red-bar{
+              .progress-bar{
+                  background-color: $little-red;
+              }
+              .percent{
+                  color: $red;
+              }
+          }
+          &.light-red-bar{
+              .progress-bar{
+                  background-color: $light-red;
+              }
+              .percent{
+                  color: $light-red;
+              }
+          }
+          &.little-gray-bar{
+              .progress-bar{
+                  background-color: $little-gray;
+              }
+              .percent{
+                  color: $little-gray;
+              }
+          }
+        }
       }
     }
   }
@@ -70,6 +124,9 @@
   font-size: $fs-list-sec;
   display: inline-block;
   float: right;
+    img{
+      margin-left: 10px;
+    }
 }
 .descrip{
   color: $primary;
@@ -85,6 +142,11 @@
   border: 1px solid $light-brown;
   color: $primary;
   padding-top: 8px;
+
+    .item{
+      border: 1px datted $brown;
+    }
+
   &:first-child{
     width: 100%;
     @media screen and (min-width: $screen-md) {
@@ -145,3 +207,75 @@
     }
   }
 }
+  .simple-topic-item-2{
+    display: inline-block;
+    background-color: $white;
+    border: 1px solid $light-brown;
+    color: $primary;
+    padding: 8px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .title{
+      font-size: 16px;
+    }
+    &:first-child{
+      width: 100%;
+      @media screen and (min-width: $screen-md) {
+        width: 55%;
+      }
+    }
+    .more{
+      text-align: right;
+      font-size: 14px;
+      padding: 10px 0px;
+      a{
+        color: $brown;
+      }
+    }
+    .item{
+      margin: $gap-xs 0px;
+      padding: $gap-s 0px;
+      border-bottom: 1px dotted $brown;
+      &:nth-child(2){
+        border-top: 1px solid $brown;
+        border-bottom: 1px solid $brown;
+      };
+      &:nth-last-child(2){
+        border-bottom: 1px solid $brown;
+      }
+      .info{
+        width: 38%;
+        height: 40px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: $gap-xs;
+        span.name{
+          margin-left: $gap-s;
+        }
+        img{
+          display: inline-block;
+          vertical-align: bottom;
+        }
+        &.right{
+          width: 60%;
+          height: auto;
+          text-align: right;
+        }
+      }
+      &.type-a{
+        .body{
+          background-color: $brow-white;
+          padding: $gap-s;
+        }
+        .action{
+          text-align: right;
+          margin: $gap-s $gap-xs;
+          img{
+            margin-left: $gap-xs;
+          }
+        }
+      }
+    }
+
+
+  }

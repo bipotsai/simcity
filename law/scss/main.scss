@@ -640,3 +640,63 @@ body > .container{
         text-align: right;
     }
 }
+.progress-style-2{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    height: 40px;
+    .progress{
+        background-image: none;
+        background-color: transparent;
+        border-radius: 0px;
+        box-shadow: none;
+        width: calc(100% - 50px);
+        float: left;
+        margin: 0px;
+        .progress-bar{
+            background-image: none;
+            box-shadow: none;
+            text-align: left;
+            padding: 0px 10px;
+            min-width: 28px;
+        }
+        .percent{
+            width: 50px;
+            padding-left: 10px;
+            position: absolute;
+        }
+        &.red-bar{
+            .progress-bar{
+                background-color: $red;
+            }
+            .percent{
+                color: $red;
+            }
+        }
+        &.little-red-bar{
+            .progress-bar{
+                background-color: $little-red;
+            }
+            .percent{
+                color: $red;
+            }
+        }
+        &.light-red-bar{
+            .progress-bar{
+                background-color: $light-red;
+            }
+            .percent{
+                color: $light-red;
+            }
+        }
+        &.little-gray-bar{
+            .progress-bar{
+                background-color: $little-gray;
+            }
+            .percent{
+                color: $little-gray;
+            }
+        }
+    }
+}

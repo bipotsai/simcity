@@ -428,5 +428,22 @@
   .name{
     font-size: 17px;
     padding: 0px 0px 45px 0px;
+    text-align: center;
+    &:first-child{
+      text-align: right;
+    };
+    &:last-child{
+      text-align: left;
+    };
+    @media screen and (max-width: $screen-s) {
+      text-align: left;
+      &:first-child{
+        text-align: left;
+      };
+      &:last-child{
+        text-align: left;
+      };
+      padding: 5px 30px;
+    }
   }
 }

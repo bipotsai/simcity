@@ -199,7 +199,6 @@
       }
     }
   }
-
   &.grid-brown{
     .panel-heading{
       background-color: $brown;
@@ -211,14 +210,6 @@
           color: $brown;
         }
       }
-    }
-  }
-  &.grid-white{
-    .panel-heading{
-      background-color: $white;
-    }
-    .panel-body{
-      border-color: $white;
     }
   }
 }
