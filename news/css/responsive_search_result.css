@@ -1,0 +1,12 @@
+@media (min-width: 769px) and (max-width: 991px) {
+    .timeline > li .tmlabel.left_space2 {
+        margin-left: 39%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .timeline > li .tmlabel.left_space2 {
+        margin-left: 36%;
+    } 
+}    
+

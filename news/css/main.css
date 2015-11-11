@@ -697,4 +697,31 @@ color: #33cccc;
     border: 1px solid #eee;
 }
 
+/*新聞局共用css*/
+.date_font_family{
+    font-family: "Lucida Bright";
+}
+.col-lg-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.overflow_hidden{
+    overflow: hidden;
+}
+.line{
+    color:#fafafa;
+}
+.red_type{
+    background-image:url(../images/red_type.png);
+}
+.yellow_type{
+    background-image:url(../images/yellow_type.png);
+}
+.green_type{
+    background-image:url(../images/green_type.png);
+}
+.blue_type{
+    background-image:url(../images/blue_type.png);
+}
+
 

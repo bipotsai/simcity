@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .timebar{
+        margin: 10px 0px 0px 0px;
+    }
+    .timebar.timebar_new {
+        display: block;
+        left: 93px;
+    }
+    .timebar.timebar_old {
+        display: block;
+        left: 171px;
+    }
+    .timeline > li .tmlabel_add {
+        padding: 0px 20px 20px 20px;
+    }
+    .reading_bar2 {
+        width: 190px;
+        border-radius: 20px;
+    }
+}    
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .timeline > li .tmlabel.left_space2 {
+        margin-left: 32%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) { 
+    .timeline > li .tmlabel.left_space2 {
+        margin-left: 37%;
+    } 
+}     
+

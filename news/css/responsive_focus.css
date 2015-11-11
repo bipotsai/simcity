@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .new{
+        left: 20px;
+        top: -5px;
+    }
+    .close_img{
+        top: 0;
+        right: 4px;
+    }
+}    
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .timeline > li .tmlabel.left_space2 {
+        margin-left: 32%;
+    }
+    .new{
+        left: 20px;
+        top: -5px;
+    }
+    .close_img{
+        top: 0;
+        right: 4px;
+    } 
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .new{
+        left: 20px;
+        top: -5px;
+    }
+    .close_img{
+        top: 0;
+        right: 4px;
+    }
+}    
+

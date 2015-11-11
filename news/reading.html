@@ -9,9 +9,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/focus.css" rel="stylesheet" type="text/css">
+    <link href="css/reading.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive_focus.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive_reading.css" rel="stylesheet" type="text/css">
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -91,7 +91,7 @@
                                         最新新聞
                                     </a>
                                 </li>
-                                <li role="presentation" class="active">
+                                <li role="presentation">
                                     <a href="focus.html">
                                         關注新聞
                                     </a>
@@ -101,7 +101,7 @@
                                         搜索新聞
                                     </a>
                                 </li>
-                                <li role="presentation">
+                                <li role="presentation" class="active">
                                     <a href="reading.html">
                                         閱讀新聞
                                     </a>
@@ -122,83 +122,66 @@
                         <div class="type_bar_date date_font_family">2015</div>
                         <span class="type_bar_clock"><img src="images/clock.png" /></span>
                         <div class="type_bar_left_line hidden-xs">--</div>
-                        <a href="#"><div class="type_bar red_type type_1">國際</div></a>
-                        <a href="#"><div class="type_bar yellow_type type_2">政治</div></a>
-                        <a href="#"><div class="type_bar green_type type_3">社會</div></a>
-                        <a href="#"><div class="type_bar blue_type type_4">運動</div></a>
-                        <div class="type_bar_right_line hidden-xs">-------------------</div>
+                        <div class="reading_bar1" style="background-image:url(images/reading_bar1.png);">2014.06.01</div>
+                        <div class="reading_bar2" style="background-image:url(images/reading_bar2.png);">社會新聞大標題社會新聞大標題新聞</div>
+                        <div class="type_bar_right_line hidden-xs hidden-md">-------------------</div>
+                        <div id="timebar_new" class="timebar timebar_new" onclick="show_timebar_new();">NEW</div>
+                        <div id="timebar_old" class="timebar timebar_old" onclick="show_timebar_old();">OLD</div>
                     </div>
                 </div>
                 <ul class="timeline">
                     <li class="line">Line</li>
+                    <li class="line2">Line</li>
                     <li>
-                        <time class="tmtime date_font_family" datetime="12-31">12.31</time>
+                        <div class="tmicon"></div>
+                        <div class="tmlabel_add"><img src="images/add.png" onclick="show();"/></div>
+                    </li>
+                    <li>
+                        <time class="tmtime date_font_family" datetime="07-31">07.31</time>
                         <div class="tmicon"></div>
                         <div class="tmlabel">
-                            <div class="title"><img class="left_pic" src="images/red_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><img class="new" src="images/new.png"><a href="#"><img class="close_img" src="images/close.png"></a></div>
+                            <div class="second_title"><img class="left_pic" src="images/green_title.png">這則新聞的今日副標題1<a href="#"><img class="down_triangle" src="images/down_triangle.png"></a></div>
+                            <div class="context">這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容</div>
                         </div>
                     </li>
                     <li>
-                        <time class="tmtime date_font_family" datetime="12-13">12.13</time>
-                        <div class="tmicon"></div>
-                        <div class="tmlabel left_space">
-                            <div class="title"><img class="left_pic" src="images/blue_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><img class="new" src="images/new.png"><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="tmtime date_font_family" datetime="12-13">12.13</time>
-                        <div class="tmicon"></div>
-                        <div class="tmlabel left_space2">
-                            <div class="title"><img class="left_pic" src="images/green_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
-                        </div>
-                    </li> 
-                    <li>
-                        <time class="tmtime date_font_family" datetime="12-31">12.31</time>
-                        <div class="tmicon"></div>
                         <div class="tmlabel">
-                            <div class="title"><img class="left_pic" src="images/blue_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><img class="new" src="images/new.png"><a href="#"><img class="close_img" src="images/close.png"></a></div>
+                            <div class="second_title"><img class="left_pic" src="images/green_title.png">這則新聞的今日副標題2<a href="#"><img class="up_triangle" src="images/up_triangle.png"></a></div>
+                            <div class="context">這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容</div>
+                            <div class="tmlabel_info">                                
+                                <div class="tmlabel_info_item">
+                                    <img class="tmlabel_info_img" src="images/pic.png" align="left">
+                                    <div class="tmlabel_info_title">此網站新聞的標題</div>
+                                    <div class="tmlabel_info_context">這是此網站新聞的內文前?個字，最多不超過二行。這是此網站新聞的內文前?個字，最多不超過二行。</div>
+                                    <img src="images/ETToday.png" align="right">
+                                </div>   
+                                <div class="tmlabel_info_item">
+                                    <img class="tmlabel_info_img" src="images/pic.png" align="left">
+                                    <div class="tmlabel_info_title">此網站新聞的標題</div>
+                                    <div class="tmlabel_info_context">這是此網站新聞的內文前?個字，最多不超過二行。這是此網站新聞的內文前?個字，最多不超過二行。</div>
+                                    <img src="images/yahoo.png" align="right">
+                                </div>  
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <time class="tmtime date_font_family" datetime="12-13">12.13</time>
+                        <time class="tmtime date_font_family" datetime="06-28">06.28</time>
                         <div class="tmicon"></div>
                         <div class="tmlabel left_space">
-                            <div class="title"><img class="left_pic" src="images/green_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><img class="new" src="images/new.png"><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
+                            <div class="second_title"><img class="left_pic" src="images/green_title.png">這則新聞的今日副標題1<a href="#"><img class="down_triangle" src="images/down_triangle.png"></a></div>
+                            <div class="context">這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容，這是這個日期的內容</div>
                         </div>
                     </li>
-                    <li>
-                        <time class="tmtime date_font_family" datetime="12-13">12.13</time>
-                        <div class="tmicon"></div>
-                        <div class="tmlabel left_space2">
-                            <div class="title"><img class="left_pic" src="images/yellow_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
-                        </div>
-                    </li> 
                     <li>
                         <time class="tmtime type_bar_date date_font_family" datetime="2014">2014</time>
                         <div class="tmicon2"></div>
                         <div class="tmlabel year_area"></div>
                     </li>
                     <li>
-                        <time class="tmtime date_font_family" datetime="11-28">11.28</time>
-                        <div class="tmicon"></div>
-                        <div class="tmlabel">
-                            <div class="title"><img class="left_pic" src="images/yellow_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
-                        </div>
-                    </li> 
-                    <li>
-                        <time class="tmtime date_font_family" datetime="11-28">11.28</time>
-                        <div class="tmicon"></div>
-                        <div class="tmlabel left_space">
-                            <div class="title"><img class="left_pic" src="images/blue_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
-                        </div>
-                    </li> 
-                    <li>
-                        <time class="tmtime date_font_family" datetime="11-01">11.01</time>
-                        <div class="tmicon"></div>
                         <div class="tmlabel left_space2">
-                            <div class="title"><img class="left_pic" src="images/red_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="close_img" src="images/close.png"></a><img class="triangle" src="images/triangle.png"></div>
+                            <div class="second_title"><img class="left_pic" src="images/green_title.png">這則新聞的今日副標題1<a href="#"><img class="down_triangle" src="images/down_triangle.png"></a></div>
                         </div>
-                    </li> 
+                    </li>
                 </ul>           
             </div>
             <footer class="footer">
@@ -258,6 +241,17 @@
         $('#custom_select').mfs();
         $('#custom_select2').mfs();
     });
+    function show_timebar_new(){
+        $("#timebar_new").css("background-image", "url(images/new_bar_select.png)");
+        $("#timebar_old").css("background-image", "url(images/old_bar.png)");
+    }
+    function show_timebar_old(){
+        $("#timebar_new").css("background-image", "url(images/new_bar.png)");
+        $("#timebar_old").css("background-image", "url(images/old_bar_select.png)");
+    }
+    function show(){
+        alert('彈出視窗');
+    }
 </script>
 
 </html>

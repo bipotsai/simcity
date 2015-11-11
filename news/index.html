@@ -11,6 +11,7 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive_index.css" rel="stylesheet" type="text/css">
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -79,15 +80,13 @@
                 <div class="container_fullwidth">
                     <div class="row">
                         <div>
-                            <div>
-                                <img src="images/header_logo.png" class="header_logo" alt="Responsive image">
-                            </div>
+                            <img src="images/header_logo.png" class="header_logo" alt="Responsive image">
                         </div>
                     </div>
                     <div class="row">
                         <div>
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation">
+                                <li role="presentation" class="active">
                                     <a href="index.html">
                                         最新新聞
                                     </a>
@@ -119,14 +118,14 @@
             </header>
             <div class="container_fullwidth">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 overflow_hidden">
                         <div class="type_bar_date date_font_family">2015</div>
                         <span class="type_bar_clock"><img src="images/clock.png" /></span>
                         <div class="type_bar_left_line hidden-xs">--</div>
-                        <div class="type_bar type_1" style="background-image:url(images/red_type.png);">國際</div>
-                        <div class="type_bar type_2" style="background-image:url(images/yellow_type.png);">政治</div>
-                        <div class="type_bar type_3" style="background-image:url(images/green_type.png);">社會</div>
-                        <div class="type_bar type_4" style="background-image:url(images/blue_type.png);">運動</div>
+                        <a href="#"><div class="type_bar red_type type_1">國際</div></a>
+                        <a href="#"><div class="type_bar yellow_type type_2">政治</div></a>
+                        <a href="#"><div class="type_bar green_type type_3">社會</div></a>
+                        <a href="#"><div class="type_bar blue_type type_4">運動</div></a>
                         <div class="type_bar_right_line hidden-xs">-------------------</div>
                     </div>
                 </div>
@@ -134,21 +133,21 @@
                     <li class="line">Line</li>
                     <li>
                         <div class="tmicon"></div>
-                        <div class="tmlabel_add"><img src="images/add.png" /></div>
+                        <div class="tmlabel_add"><img src="images/add.png" onclick="show();"/></div>
                     </li>
                     <li>
                         <time class="tmtime date_font_family" datetime="12-31">12.31</time>
                         <div class="tmicon"></div>
                         <div class="tmlabel">
-                            <div class="title"><img class="left_pic" src="images/red_title.png">這是新聞的大標題，直接點選會進入該新聞的當日時間軸<img class="right_pic" src="images/gray_flag.png"></div>
-                            <div class="second_title">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</div>
+                            <div class="title"><img class="left_pic" src="images/red_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="right_pic" src="images/gray_flag.png"></a></div>
+                            <div class="second_title"><a href="#">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</a></div>
                             <div class="context">這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容</div>
                         </div>
                     </li>
                     <li>
                         <div class="tmlabel">
-                            <div class="title"><img class="left_pic" src="images/blue_title.png">這是新聞的大標題，直接點選會進入該新聞的當日時間軸<img class="right_pic" src="images/yellow_flag.png"></div>
-                            <div class="second_title">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</div>
+                            <div class="title"><img class="left_pic" src="images/blue_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="right_pic" src="images/yellow_flag.png"></a></div>
+                            <div class="second_title"><a href="#">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</a></div>
                             <div class="context">這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容</div>
                         </div>
                     </li>  
@@ -156,8 +155,8 @@
                         <time class="tmtime date_font_family" datetime="12-13">12.13</time>
                         <div class="tmicon"></div>
                         <div class="tmlabel left_space">
-                            <div class="title"><img class="left_pic" src="images/green_title.png">這是新聞的大標題，直接點選會進入該新聞的當日時間軸<img class="right_pic" src="images/yellow_flag.png"></div>
-                            <div class="second_title">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</div>
+                            <div class="title"><img class="left_pic" src="images/green_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="right_pic" src="images/yellow_flag.png"></a></div>
+                            <div class="second_title"><a href="#">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</a></div>
                             <div class="context">這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容</div>
                         </div>
                     </li>
@@ -165,8 +164,8 @@
                         <time class="tmtime date_font_family" datetime="11-28">11.28</time>
                         <div class="tmicon"></div>
                         <div class="tmlabel left_space2">
-                            <div class="title"><img class="left_pic" src="images/red_title.png">這是新聞的大標題，直接點選會進入該新聞的當日時間軸<img class="right_pic" src="images/yellow_flag.png"></div>
-                            <div class="second_title">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</div>
+                            <div class="title"><img class="left_pic" src="images/red_title.png"><a href="#">這是新聞的大標題，直接點選會進入該新聞的當日時間軸</a><a href="#"><img class="right_pic" src="images/yellow_flag.png"></a></div>
+                            <div class="second_title"><a href="#">這是新聞的副標題，直接點選會進入該新聞的當日時間軸</a></div>
                             <div class="context">這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容，這是這個日期的最新內容</div>
                         </div>
                     </li> 
@@ -229,6 +228,9 @@
         $('#custom_select').mfs();
         $('#custom_select2').mfs();
     });
+    function show(){
+        alert('彈出視窗');
+    }
 </script>
 
 </html>

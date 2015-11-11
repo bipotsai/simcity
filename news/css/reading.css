@@ -15,17 +15,7 @@
     display: inline-block;
     position: absolute;
     top: 15px;
-    left: 75px;
-}
-.type_bar{
-    width: 95px;
-    height: 30px;
-    line-height: 30px;
-    overflow: hidden;
-    display: inline-block;
-    color: white;
-    padding-left: 37px;
-    position: absolute; 
+    left: 78px;
 }
 .type_bar_right_line{
     width: 100%;
@@ -37,19 +27,11 @@
     display: inline-block;
     position: absolute;
     top: 15px;
-    left: 410px;
+    left: 513px;
 }
-.type_1{
-    left:90px;
-}
-.type_2{
-    left:165px;
-}
-.type_3{
-    left:240px;
-}
-.type_4{
-    left:315px;
+.line2{
+    color:#fafafa;
+    display: none;
 }
 .timeline {
     padding: 0;
@@ -103,21 +85,30 @@
 }
 .timeline > li .tmlabel {
     margin: 20px 0 20px 90px;
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 0px 20px 8px 20px;
+    background-color: white;
+    position: relative;
+}
+.timeline > li .tmlabel_add {
+    margin: 20px 0 20px 60px;
+    color: #333333;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 1.4;
     position: relative;
-    padding: 0px 20px 8px 20px;
-    background-color: white;
-    position: relative;
+    padding: 0px 20px 20px 20px;
+}
+.timeline > li .tmlabel_add img{
+    cursor: pointer;
 }
 .title{
     font-size: 14px;
     font-weight: bold;
     padding: 10px 0px 0px 0px;
-}
-.title a{
-    color: #333333;
 }
 .left_pic{
     position: absolute;
@@ -135,17 +126,88 @@
     padding: 40px 0px 10px 0px;
     background-color: #fafafa;
 }
-.new{
+.reading_bar1{
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    padding-left: 12px;
     position: absolute;
-    right: 40px;
+    left: 93px;    
 }
-.close_img{
+.reading_bar2{
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    padding-left: 12px;
     position: absolute;
-    right: 25px;
-    top: 15px;
+    left: 193px;
 }
-.triangle{
+.timebar{
+    font-family: "Lucida Bright";
+    font-size: 16px;
+    cursor: pointer;
+}
+.timebar.timebar_new{
+    background-image:url(../images/new_bar_select.png);
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    padding: 4px 0px 0px 37px;
+    position: absolute;
+    right: 84px;
+}
+.timebar.timebar_old{
+    background-image:url(../images/old_bar.png);
+    width: 95px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    padding: 4px 0px 0px 37px;
     position: absolute;
     right: 0;
-    bottom: 0;
+}
+.second_title{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 13px 0px 20px 0px;
+}
+.context{
+    font-size: 12px;
+    color: #999999;
+}
+.up_triangle,.down_triangle{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.tmlabel_info{
+    border-top: 1px solid #e6e6e6;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.tmlabel_info_item{
+    background-color: white;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.tmlabel_info_img{
+    margin-right: 10px;
+}
+.tmlabel_info_title{
+    font-size: 14px;
+    padding: 10px 0px;
+    color: #999999;
+}
+.tmlabel_info_context{
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;
+    height: 30px;
 }
