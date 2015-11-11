@@ -213,14 +213,36 @@
     }
   }
 }
+.v-line{
+  border-right: 1px solid  $dark-brown;
+}
 .panel-menu{
   color: $dark-brown;
+  font-weight: lighter;
+  .v-line{
+    margin: 0px 7px 0px 3px;
+  }
+  .actions{
+    margin-left: $gap-m;
+    &.question{
+      a.active{
+        color: $red;
+      }
+    }
+    &.answer{
+      a.active{
+        color: $yellow;
+      }
+    }
+  }
   a{
     color: $dark-brown;
-    padding: 0px 10px 0px 5px;
-    border-right: 1px solid  $dark-brown;
+    &.active, &:hover{
+      color: $light-brown;
+    }
     &:last-child{
       border-right: 0px;
+      margin-right: $gap-mm;
     };
     &.red_active{
       color: $red;

@@ -11,12 +11,6 @@
       float: right; }
       .layout-3 .itme-box .question-box .select_box.no-padding-right {
         padding-right: 0px; }
-    .layout-3 .itme-box .question-box img.quest {
-      height: 17px; }
-    .layout-3 .itme-box .question-box img.font {
-      height: 34px; }
-    .layout-3 .itme-box .question-box img.quest-font {
-      height: 34px; }
   @media (max-width: 768px) {
     .layout-3 .itme-box .question-box {
       width: 100%; } }

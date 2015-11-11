@@ -547,7 +547,7 @@ body > .container {
   border: 1px solid #eee; }
 
 .footer_menu {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
   padding: 15px 0px; }
   .footer_menu a {
     border-right: 1px solid #666;
@@ -557,7 +557,7 @@ body > .container {
     .footer_menu a:last-child {
       border-right: 0px; }
     .footer_menu a:hover {
-      color: #33CCCC; }
+      color: #33cccc; }
 
 .footer {
   line-height: 60px;
@@ -565,7 +565,7 @@ body > .container {
   height: 60px;
   padding: 0px 10px;
   color: #CCCCCC;
-  background-color: #4D4D4D; }
+  background-color: #4d4d4d; }
 
 .progress-style-1 {
   overflow: hidden;
@@ -575,19 +575,19 @@ body > .container {
     background-image: none;
     background-color: transparent;
     border-radius: 0px;
-    border: 1px solid #E03E52;
+    border: 1px solid #e03e52;
     box-shadow: none;
     width: calc(100% - 50px);
     float: left;
     margin: 0px; }
     .progress-style-1 .progress .progress-bar {
       background-image: none;
-      background-color: #E03E52;
+      background-color: #e03e52;
       box-shadow: none;
       text-align: left;
       padding: 0px 10px; }
   .progress-style-1 .percent {
-    color: #E03E52;
+    color: #e03e52;
     width: 50px;
     float: left;
     text-align: right; }
@@ -617,23 +617,30 @@ body > .container {
       padding-left: 10px;
       position: absolute; }
     .progress-style-2 .progress.red-bar .progress-bar {
-      background-color: #E03E52; }
+      background-color: #e03e52; }
     .progress-style-2 .progress.red-bar .percent {
-      color: #E03E52; }
+      color: #e03e52; }
     .progress-style-2 .progress.little-red-bar .progress-bar {
       background-color: rgba(224, 62, 82, 0.5); }
     .progress-style-2 .progress.little-red-bar .percent {
-      color: #E03E52; }
+      color: #e03e52; }
     .progress-style-2 .progress.light-red-bar .progress-bar {
-      background-color: #FF9999; }
+      background-color: #ff9999; }
     .progress-style-2 .progress.light-red-bar .percent {
-      color: #FF9999; }
+      color: #ff9999; }
     .progress-style-2 .progress.little-gray-bar .progress-bar {
-      background-color: #E6E6E6; }
+      background-color: #e6e6e6; }
     .progress-style-2 .progress.little-gray-bar .percent {
-      color: #E6E6E6; }
+      color: #e6e6e6; }
 
 .cus-row {
   margin-bottom: 10px; }
 
-/*# sourceMappingURL=main.css.map */
+img.quest {
+  height: 17px; }
+
+img.font {
+  height: 34px; }
+
+img.quest-font {
+  height: 34px; }
