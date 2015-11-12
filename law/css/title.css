@@ -1,15 +1,15 @@
 .progress {
-  background-image: -webkit-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
-  background-image: -o-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
-  background-image: -webkit-gradient(linear, left right, left right, from(#e03e52), to(#ffcc00));
-  background-image: linear-gradient(to right, #e03e52 0%, #ffcc00 100%);
+  background-image: -webkit-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+  background-image: -o-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
+  background-image: -webkit-gradient(linear, left right, left right, from(#E03E52), to(#FFCC00));
+  background-image: linear-gradient(to right, #E03E52 0%, #FFCC00 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
   background-repeat: repeat-x;
   overflow: visible; }
 
 .coffee-box {
   color: #534741;
-  background-color: #d8c9b7;
+  background-color: #D8C9B7;
   padding: 7px 10px 8px 7px;
   border-top-right-radius: 50px 50px;
   border-bottom-right-radius: 50px 50px;
@@ -123,12 +123,12 @@
     .title-2 .progress-box-2 .progress {
       background-image: none;
       background-color: transparent;
-      border: 1px solid #e03e52;
+      border: 1px solid #E03E52;
       border-radius: 0px; }
       .title-2 .progress-box-2 .progress .progress-bar {
-        background-color: #e03e52; }
+        background-color: #E03E52; }
     .title-2 .progress-box-2 .info-box {
-      color: #e03e52;
+      color: #E03E52;
       line-height: 15px; }
     @media screen and (max-width: 768px) {
       .title-2 .progress-box-2 .info-box {
@@ -158,7 +158,7 @@
         height: 40px;
         padding: 0px 10px;
         line-height: 40px;
-        background-color: #e03e52;
+        background-color: #E03E52;
         float: left; }
       .title-3 .progress-box-2 .left-user i {
         font-style: inherit;
@@ -172,7 +172,7 @@
         height: 40px;
         padding: 0px 10px;
         line-height: 40px;
-        background-color: #ffcc00;
+        background-color: #FFCC00;
         float: right; }
       .title-3 .progress-box-2 .right-user i {
         font-style: inherit;
@@ -217,13 +217,13 @@
     .title-4 .progress-bar .number {
       position: absolute;
       right: -30px;
-      color: #e03e52; }
+      color: #E03E52; }
     .title-4 .progress-bar.color-1 {
-      background-color: #e03e52; }
+      background-color: #E03E52; }
     .title-4 .progress-bar.color-2 {
       background-color: rgba(224, 62, 82, 0.5); }
     .title-4 .progress-bar.color-3 {
-      background-color: #ff9999; }
+      background-color: #FF9999; }
   .title-4 .progress {
     height: 10px;
     margin-bottom: 0px;
@@ -294,12 +294,12 @@
         float: left;
         text-align: center; }
         .title-5 .battle .left .user .number {
-          color: #e03e52; }
+          color: #E03E52; }
         .title-5 .battle .left .user .name {
           color: #fff;
           line-height: 40px;
           height: 40px;
-          background-color: #e03e52;
+          background-color: #E03E52;
           padding: 0px 5px;
           box-shadow: 1px 2px 1px #AFAFAF; }
       .title-5 .battle .left .img {
@@ -317,12 +317,12 @@
         float: right;
         text-align: center; }
         .title-5 .battle .right .user .number {
-          color: #e03e52; }
+          color: #E03E52; }
         .title-5 .battle .right .user .name {
           color: #fff;
           line-height: 40px;
           height: 40px;
-          background-color: #ffcc00;
+          background-color: #FFCC00;
           padding: 0px 5px;
           box-shadow: -2px 2px 1px #AFAFAF; }
       .title-5 .battle .right .img {
@@ -363,3 +363,30 @@
           text-align: left; }
         .title-6 .name:last-child {
           text-align: left; } }
+
+.subject-title {
+  color: #534741;
+  font-weight: lighter;
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 0px; }
+  .subject-title h1 {
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle; }
+  .subject-title img {
+    display: inline-block;
+    vertical-align: middle; }
+  .subject-title .type {
+    font-size: 32px;
+    background-color: #534741;
+    border-radius: 25px;
+    padding: 1px 8px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin-right: 5px; }
+
+/*# sourceMappingURL=title.css.map */

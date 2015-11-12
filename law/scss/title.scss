@@ -465,3 +465,33 @@
     }
   }
 }
+
+.subject-title{
+  color: $primary;
+  font-weight: lighter;
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 0px;
+  h1{
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .type{
+    font-size: $fs-l;
+    // border: 1px solid #534741;
+    background-color: $primary;
+    border-radius: 25px;
+    padding: 1px 8px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin-right: $gap-xs;
+  }
+}
