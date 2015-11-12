@@ -71,6 +71,9 @@ hr{
 .margin-bottom-lg{
     margin-bottom: 35px;
 }
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
 
 .colored{
     color: #e31a23;
@@ -711,4 +714,45 @@ img.font{
 }
 img.quest-font{
     height: 34px;
+}
+img.quest-font-larg{
+    height: 40px;
+}
+.paginate{
+    margin: 20px 0px;
+    span{
+        padding: 3px 5px;
+        &.selected{
+            background-color: $little-gray;
+            border: 1px solid $little-gray;
+            margin: 0px 7px;
+            padding: 3px 7px;
+        }
+        a{
+            padding: 3px 7px;
+            color: $light-black;
+            border: 1px solid $little-gray;
+            &:hover{
+                border: 1px solid $light-black;
+            };
+        }
+        &.pre{
+            a{
+                border: 0px;
+                padding: 0px;
+            }
+            img{
+                height: 18px;
+            }
+        }
+        &.next{
+            a{
+                border: 0px;
+                padding: 0px;
+            }
+            img{
+                height: 18px;
+            }
+        }
+    }
 }

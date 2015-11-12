@@ -62,6 +62,9 @@ hr {
 .margin-bottom-lg {
   margin-bottom: 35px; }
 
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
 .colored {
   color: #e31a23; }
 
@@ -644,3 +647,32 @@ img.font {
 
 img.quest-font {
   height: 34px; }
+
+img.quest-font-larg {
+  height: 40px; }
+
+.paginate {
+  margin: 20px 0px; }
+  .paginate span {
+    padding: 3px 5px; }
+    .paginate span.selected {
+      background-color: #e6e6e6;
+      border: 1px solid #e6e6e6;
+      margin: 0px 7px;
+      padding: 3px 7px; }
+    .paginate span a {
+      padding: 3px 7px;
+      color: #666666;
+      border: 1px solid #e6e6e6; }
+      .paginate span a:hover {
+        border: 1px solid #666666; }
+    .paginate span.pre a {
+      border: 0px;
+      padding: 0px; }
+    .paginate span.pre img {
+      height: 18px; }
+    .paginate span.next a {
+      border: 0px;
+      padding: 0px; }
+    .paginate span.next img {
+      height: 18px; }

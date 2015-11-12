@@ -22,7 +22,7 @@
       .grid .panel-heading .type .stamp {
         font-size: 16px; }
   .grid .panel-body {
-    background-color: #FFFFFF;
+    background-color: white;
     border: 1px solid;
     border-top-width: 0px; }
     .grid .panel-body .info {
@@ -53,19 +53,19 @@
     .grid .panel-body .body {
       color: #998675; }
     .grid .panel-body.body-question, .grid .panel-body.body-answer, .grid .panel-body.body-answer-light, .grid .panel-body.body-answer-lighter, .grid .panel-body.body-question-light, .grid .panel-body.body-question-lighter {
-      color: #42210B; }
+      color: #42210b; }
       .grid .panel-body.body-question .info, .grid .panel-body.body-answer .info, .grid .panel-body.body-answer-light .info, .grid .panel-body.body-answer-lighter .info, .grid .panel-body.body-question-light .info, .grid .panel-body.body-question-lighter .info {
-        color: #FFFFFF !important; }
+        color: white !important; }
       .grid .panel-body.body-question .body, .grid .panel-body.body-answer .body, .grid .panel-body.body-answer-light .body, .grid .panel-body.body-answer-lighter .body, .grid .panel-body.body-question-light .body, .grid .panel-body.body-question-lighter .body {
-        color: #42210B; }
+        color: #42210b; }
     .grid .panel-body.body-question {
-      background-color: #E03E52; }
+      background-color: #e03e52; }
     .grid .panel-body.body-question-light {
-      background-color: #FF9999; }
+      background-color: #ff9999; }
     .grid .panel-body.body-question-lighter {
       background-color: rgba(224, 62, 82, 0.2); }
     .grid .panel-body.body-answer {
-      background-color: #FFCC00; }
+      background-color: #ffcc00; }
     .grid .panel-body.body-answer-light {
       background-color: rgba(255, 204, 0, 0.5); }
     .grid .panel-body.body-answer-lighter {
@@ -75,17 +75,17 @@
   .grid.grid-answer.no-type .panel-heading, .grid.grid-question.no-type .panel-heading, .grid.grid-gray-out.no-type .panel-heading, .grid.grid-brown.no-type .panel-heading, .grid.grid-question-light.no-type .panel-heading, .grid.grid-question-lighter.no-type .panel-heading, .grid.grid-answer-light.no-type .panel-heading, .grid.grid-answer-lighter.no-type .panel-heading {
     border-top-left-radius: 0px; }
   .grid.grid-gray-out .panel-heading {
-    background-color: #E6E6E6; }
+    background-color: #e6e6e6; }
   .grid.grid-gray-out .panel-body {
-    border-color: #E6E6E6; }
+    border-color: #e6e6e6; }
     .grid.grid-gray-out .panel-body .info.right {
-      color: #E6E6E6; }
+      color: #e6e6e6; }
   .grid.grid-answer .panel-heading {
-    background-color: #FFCC00; }
+    background-color: #ffcc00; }
   .grid.grid-answer .panel-body {
-    border-color: #FFCC00; }
+    border-color: #ffcc00; }
     .grid.grid-answer .panel-body .info.right {
-      color: #FFCC00; }
+      color: #ffcc00; }
   .grid.grid-answer-light .panel-heading {
     background-color: rgba(255, 204, 0, 0.5); }
   .grid.grid-answer-light .panel-body {
@@ -99,17 +99,17 @@
     .grid.grid-answer-lighter .panel-body .info.right {
       color: rgba(255, 204, 0, 0.2); }
   .grid.grid-question .panel-heading {
-    background-color: #E03E52; }
+    background-color: #e03e52; }
   .grid.grid-question .panel-body {
-    border-color: #E03E52; }
+    border-color: #e03e52; }
     .grid.grid-question .panel-body .info.right {
-      color: #E03E52; }
+      color: #e03e52; }
   .grid.grid-question-light .panel-heading {
-    background-color: #FF9999; }
+    background-color: #ff9999; }
   .grid.grid-question-light .panel-body {
-    border-color: #FF9999; }
+    border-color: #ff9999; }
     .grid.grid-question-light .panel-body .info.right {
-      color: #FF9999; }
+      color: #ff9999; }
   .grid.grid-question-lighter .panel-heading {
     background-color: rgba(224, 62, 82, 0.2); }
   .grid.grid-question-lighter .panel-body {
@@ -134,19 +134,17 @@
   .panel-menu .actions {
     margin-left: 15px; }
     .panel-menu .actions.question a.active {
-      color: #E03E52; }
+      color: #e03e52; }
     .panel-menu .actions.answer a.active {
-      color: #FFCC00; }
+      color: #ffcc00; }
   .panel-menu a {
     color: #736357; }
     .panel-menu a.active, .panel-menu a:hover {
-      color: #C7B299; }
+      color: #c7b299; }
     .panel-menu a:last-child {
       border-right: 0px;
       margin-right: 20px; }
     .panel-menu a.red_active {
-      color: #E03E52; }
+      color: #e03e52; }
     .panel-menu a.yellow_active {
-      color: #FFCC00; }
-
-/*# sourceMappingURL=grid.css.map */
+      color: #ffcc00; }

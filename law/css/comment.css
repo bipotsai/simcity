@@ -86,7 +86,7 @@
   text-align: justify;
   text-justify: auto;
   position: relative;
-  background: #FFFFFF;
+  background: white;
   padding: 10px;
   border-radius: 8px;
   min-height: 40px;
@@ -106,21 +106,19 @@
     margin-top: -13px; }
 
 .arrow_right_box {
-  border-color: #FF9999; }
+  border-color: #ff9999; }
   .arrow_right_box:after, .arrow_right_box:before {
     right: 100%; }
   .arrow_right_box:after {
-    border-right-color: #FFFFFF; }
+    border-right-color: white; }
   .arrow_right_box:before {
-    border-right-color: #FF9999; }
+    border-right-color: #ff9999; }
 
 .arrow_left_box {
-  border-color: #FFCC00; }
+  border-color: #ffcc00; }
   .arrow_left_box:after, .arrow_left_box:before {
     left: 100%; }
   .arrow_left_box:after {
-    border-left-color: #FFFFFF; }
+    border-left-color: white; }
   .arrow_left_box:before {
-    border-left-color: #FFCC00; }
-
-/*# sourceMappingURL=comment.css.map */
+    border-left-color: #ffcc00; }

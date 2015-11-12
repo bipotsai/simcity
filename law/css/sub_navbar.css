@@ -1,25 +1,25 @@
 .sub-navbar .count-down {
-  color: #FFFFFF;
+  color: white;
   display: inline-block;
   margin-bottom: 10px;
   height: 30px; }
   .sub-navbar .count-down.answer {
-    background-color: #FFCC00; }
+    background-color: #ffcc00; }
     .sub-navbar .count-down.answer .counter span {
-      color: #FFCC00; }
+      color: #ffcc00; }
   .sub-navbar .count-down.question {
-    background-color: #E03E52; }
+    background-color: #e03e52; }
     .sub-navbar .count-down.question .counter span {
-      color: #E03E52; }
+      color: #e03e52; }
   .sub-navbar .count-down.bg-linear {
-    background-image: -webkit-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
-    background-image: -o-linear-gradient(right, #E03E52 0%, #FFCC00 100%);
-    background-image: -webkit-gradient(linear, left right, left right, from(#E03E52), to(#FFCC00));
-    background-image: linear-gradient(to right, #E03E52 0%, #FFCC00 100%);
+    background-image: -webkit-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+    background-image: -o-linear-gradient(right, #e03e52 0%, #ffcc00 100%);
+    background-image: -webkit-gradient(linear, left right, left right, from(#e03e52), to(#ffcc00));
+    background-image: linear-gradient(to right, #e03e52 0%, #ffcc00 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
     background-repeat: repeat-x; }
     .sub-navbar .count-down.bg-linear .counter span {
-      color: #E03E52; }
+      color: #e03e52; }
   .sub-navbar .count-down.bg-brown {
     background-color: #998675; }
     .sub-navbar .count-down.bg-brown .counter span {
@@ -30,7 +30,7 @@
     padding-left: 10px; }
     .sub-navbar .count-down .counter span {
       background: white;
-      color: #FFCC00;
+      color: #ffcc00;
       padding: 0px 4px; }
       .sub-navbar .count-down .counter span:last-child {
         margin-right: 10px; }
@@ -49,7 +49,7 @@
   width: 80px;
   text-align: center;
   color: white;
-  background-color: #D8C9B7;
+  background-color: #d8c9b7;
   font-size: 14px;
   padding-top: 4px;
   line-height: 23px; }
@@ -62,12 +62,10 @@
   .sub-navbar .item.brown {
     background-color: #998675; }
   .sub-navbar .item.question {
-    border-color: #E03E52; }
+    border-color: #e03e52; }
     .sub-navbar .item.question.disable {
       border-color: rgba(224, 62, 82, 0.2); }
   .sub-navbar .item.answer {
-    border-color: #FFCC00; }
+    border-color: #ffcc00; }
     .sub-navbar .item.answer.disable {
       border-color: rgba(255, 204, 0, 0.2); }
-
-/*# sourceMappingURL=sub_navbar.css.map */
