@@ -10,7 +10,7 @@
 .coffee-box {
   color: #534741;
   background-color: #d8c9b7;
-  padding: 7px 10px 7px 5px;
+  padding: 7px 10px 8px 7px;
   border-top-right-radius: 50px 50px;
   border-bottom-right-radius: 50px 50px;
   border-top-left-radius: 50px 50px;
@@ -79,7 +79,8 @@
     margin: 0px; }
   .title-2 .progress {
     height: 15px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    border-radius: 0px; }
   .title-2 .progress-box-1 {
     padding: 0px 40px;
     position: relative;
@@ -277,8 +278,6 @@
     text-align: center; }
     .title-5 .clock-box div {
       display: inline-block; }
-    .title-5 .clock-box span:last-child {
-      margin-left: 15px; }
   .title-5 .battle {
     display: inline-block;
     margin: 15px 0px;

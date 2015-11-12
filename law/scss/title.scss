@@ -10,7 +10,7 @@
 .coffee-box{
   color: $primary;
   background-color: $lighter-brown;
-  padding: 7px 10px 7px 5px;
+  padding: 7px 10px 8px 7px;
   border-top-right-radius: 50px 50px;
   border-bottom-right-radius: 50px 50px;
   border-top-left-radius: 50px 50px;
@@ -96,6 +96,7 @@
   .progress{
     height: 15px;
     margin-bottom: 0px;
+    border-radius: 0px;
   }
   .progress-box-1{
     padding: 0px 40px;
@@ -353,9 +354,6 @@
     div{
       display: inline-block;
     }
-    span:last-child{
-      margin-left: 15px;
-    };
   }
   .battle{
     display: inline-block;
